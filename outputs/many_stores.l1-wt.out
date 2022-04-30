@@ -190,9 +190,6 @@ Printing all cache contents ...
 DL1Cache->access(MemWrite, addr: 170240, latency: 2)
 L2Cache->access(MemWrite, addr: 170240, latency: 12)
 Memory->access(MemRead, addr: 170240, latency: 112)
-*(36, 1) age increase
-*(36, 2) age increase
-*(36, 3) age increase
 CYCLE: 125 -> 125
 ======================================================================
 Printing all cache contents ...
@@ -210,9 +207,6 @@ Printing all cache contents ...
 DL1Cache->access(MemWrite, addr: 39168, latency: 2)
 L2Cache->access(MemWrite, addr: 39168, latency: 12)
 Memory->access(MemRead, addr: 39168, latency: 112)
-*(36, 0) age increase
-*(36, 2) age increase
-*(36, 3) age increase
 CYCLE: 126 -> 126
 ======================================================================
 Printing all cache contents ...

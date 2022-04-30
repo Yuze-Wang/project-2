@@ -119,7 +119,7 @@ CacheLine *CacheCore::allocateLine(uint32_t addr, uint32_t *rplcAddr) {
   content[max_age_index].validate();
   for(uint32_t j = 0; j < assoc; j++){
         if(content[numRows * j + row_bit].isValid() && index2Column(max_age_index) != j){
-          printf("*(%d, %d) age increase\n", row_bit, j);
+          //printf("*(%d, %d) age increase\n", row_bit, j);
           content[numRows * j + row_bit].incAge();
         }
       }
