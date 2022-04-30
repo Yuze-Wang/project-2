@@ -58,7 +58,7 @@ class CacheCore {
     uint32_t index2Row(uint32_t index) const {
       // TODO: Implement
       //printf("index: %d, assoc: %d\n", (int)index, (int)assoc);
-      return index;
+      return index % assoc;
     }
 
     /** <B>TODO</B>: Returns the column for the given content array index.<br>
@@ -71,7 +71,7 @@ class CacheCore {
      */ 
     uint32_t index2Column(uint32_t index) const {
       // TODO: Implement
-      return index % assoc;
+      return index / assoc;
     }
 
   public:
