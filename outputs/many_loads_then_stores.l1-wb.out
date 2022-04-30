@@ -486,7 +486,7 @@ Printing all memory stats ...
 
 DL1Cache:readHits=0:readMisses=7:writeHits=0:writeMisses=7:writeBacks=0
 IL1Cache:readHits=13:readMisses=1:writeHits=0:writeMisses=0:writeBacks=0
-L2Cache:readHits=2:readMisses=6:writeHits=0:writeMisses=3:writeBacks=0
+L2Cache:readHits=2:readMisses=6:writeHits=4:writeMisses=3:writeBacks=0
 Memory:readHits=6:writeHits=3
 
 ======================================================================

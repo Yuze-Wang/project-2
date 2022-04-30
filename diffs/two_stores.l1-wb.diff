@@ -91,7 +91,7 @@ Printing all cache contents ...					Printing all cache contents ...
 
 Printing all memory stats ... 					Printing all memory stats ... 
 
-DL1Cache:readHits=0:readMisses=0:writeHits=0:writeMisses   |	DL1Cache:readHits=0:readMisses=0:writeHits=1:writeMisses
+DL1Cache:readHits=0:readMisses=0:writeHits=1:writeMisses	DL1Cache:readHits=0:readMisses=0:writeHits=1:writeMisses
 IL1Cache:readHits=1:readMisses=1:writeHits=0:writeMisses	IL1Cache:readHits=1:readMisses=1:writeHits=0:writeMisses
 L2Cache:readHits=0:readMisses=1:writeHits=0:writeMisses=   |	L2Cache:readHits=0:readMisses=2:writeHits=0:writeMisses=
 Memory:readHits=1:writeHits=1				   |	Memory:readHits=2:writeHits=0

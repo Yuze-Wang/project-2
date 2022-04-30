@@ -156,11 +156,14 @@ void WBCache::write(MemRequest *mreq)
   line = cacheCore->accessLine(mreq->getAddr());
   if(line != NULL){
     line->makeDirty();
+    writeHits.inc();
     return;
   }
   writeMisses.inc();
+  mreq->mutateWriteToRead();
   getLowerLevelMemObj()->access(mreq);
-  cacheCore->allocateLine(mreq->getAddr(), rplcAddr);
+  line = cacheCore->allocateLine(mreq->getAddr(), rplcAddr);
+  line->makeDirty();
   // For now, the write always misses and memory request is passed on to
   // lower level memory.  Of course, you'd want to change this behavior. :)
   
@@ -175,11 +178,13 @@ void WBCache::writeBack(MemRequest *mreq)
   line = cacheCore->accessLine(mreq->getAddr());
   if(line != NULL){
     line->makeDirty();
+    //writeHits.inc();
     return;
   }
   writeMisses.inc();
   getLowerLevelMemObj()->access(mreq);
-  cacheCore->allocateLine(mreq->getAddr(), rplcAddr);
+  line = cacheCore->allocateLine(mreq->getAddr(), rplcAddr);
+  line->makeDirty();
 }
 
 // WTCache: Write through cache. Always propagates writes down.

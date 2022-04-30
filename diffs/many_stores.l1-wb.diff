@@ -261,7 +261,7 @@ Printing all memory stats ... 					Printing all memory stats ...
 
 DL1Cache:readHits=0:readMisses=0:writeHits=0:writeMisses   |	DL1Cache:readHits=0:readMisses=0:writeHits=0:writeMisses
 IL1Cache:readHits=6:readMisses=1:writeHits=0:writeMisses	IL1Cache:readHits=6:readMisses=1:writeHits=0:writeMisses
-L2Cache:readHits=0:readMisses=1:writeHits=0:writeMisses=   |	L2Cache:readHits=1:readMisses=7:writeHits=0:writeMisses=
+L2Cache:readHits=0:readMisses=1:writeHits=2:writeMisses=   |	L2Cache:readHits=1:readMisses=7:writeHits=0:writeMisses=
 Memory:readHits=1:writeHits=5				   |	Memory:readHits=7:writeHits=0
 
 ========================================================	========================================================
