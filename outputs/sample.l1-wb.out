@@ -199,14 +199,14 @@ Printing all cache contents ...
 ======================================================================
 [MEM CYCLE: 354] STORE: (Seq:        9)(Addr: 268454020)(PC: 2097344)
 DL1Cache->access(MemWrite, addr: 268454020, latency: 2)
-L2Cache->access(MemWrite, addr: 268454020, latency: 12)
-Memory->access(MemWrite, addr: 268454020, latency: 112)
+L2Cache->access(MemRead, addr: 268454020, latency: 12)
+Memory->access(MemRead, addr: 268454020, latency: 112)
 CYCLE: 354 -> 354
 ======================================================================
 Printing all cache contents ...
 [DL1Cache]
 (0, 0) tag=262140:valid=1:dirty=0:age=0
-(34, 0) tag=32770:valid=1:dirty=0:age=0
+(34, 0) tag=32770:valid=1:dirty=1:age=0
 [IL1Cache]
 (2, 0) tag=256:valid=1:dirty=0:age=0
 (3, 0) tag=256:valid=1:dirty=0:age=0
@@ -223,7 +223,7 @@ CYCLE: 354 -> 355
 Printing all cache contents ...
 [DL1Cache]
 (0, 0) tag=262140:valid=1:dirty=0:age=0
-(34, 0) tag=32770:valid=1:dirty=0:age=0
+(34, 0) tag=32770:valid=1:dirty=1:age=0
 [IL1Cache]
 (2, 0) tag=256:valid=1:dirty=0:age=0
 (3, 0) tag=256:valid=1:dirty=0:age=0
@@ -240,7 +240,7 @@ CYCLE: 356 -> 357
 Printing all cache contents ...
 [DL1Cache]
 (0, 0) tag=262140:valid=1:dirty=0:age=0
-(34, 0) tag=32770:valid=1:dirty=0:age=0
+(34, 0) tag=32770:valid=1:dirty=1:age=0
 [IL1Cache]
 (2, 0) tag=256:valid=1:dirty=0:age=0
 (3, 0) tag=256:valid=1:dirty=0:age=0
@@ -257,7 +257,7 @@ CYCLE: 358 -> 359
 Printing all cache contents ...
 [DL1Cache]
 (0, 0) tag=262140:valid=1:dirty=0:age=0
-(34, 0) tag=32770:valid=1:dirty=0:age=0
+(34, 0) tag=32770:valid=1:dirty=1:age=0
 [IL1Cache]
 (2, 0) tag=256:valid=1:dirty=0:age=0
 (3, 0) tag=256:valid=1:dirty=0:age=0
@@ -276,7 +276,7 @@ CYCLE: 360 -> 471
 Printing all cache contents ...
 [DL1Cache]
 (0, 0) tag=262140:valid=1:dirty=0:age=0
-(34, 0) tag=32770:valid=1:dirty=0:age=0
+(34, 0) tag=32770:valid=1:dirty=1:age=0
 [IL1Cache]
 (0, 0) tag=261:valid=1:dirty=0:age=0
 (2, 0) tag=256:valid=1:dirty=0:age=0
@@ -295,7 +295,7 @@ CYCLE: 472 -> 473
 Printing all cache contents ...
 [DL1Cache]
 (0, 0) tag=262140:valid=1:dirty=0:age=0
-(34, 0) tag=32770:valid=1:dirty=0:age=0
+(34, 0) tag=32770:valid=1:dirty=1:age=0
 [IL1Cache]
 (0, 0) tag=261:valid=1:dirty=0:age=0
 (2, 0) tag=256:valid=1:dirty=0:age=0
@@ -314,7 +314,7 @@ CYCLE: 474 -> 475
 Printing all cache contents ...
 [DL1Cache]
 (0, 0) tag=262140:valid=1:dirty=0:age=0
-(34, 0) tag=32770:valid=1:dirty=0:age=0
+(34, 0) tag=32770:valid=1:dirty=1:age=0
 [IL1Cache]
 (0, 0) tag=261:valid=1:dirty=0:age=0
 (2, 0) tag=256:valid=1:dirty=0:age=0
@@ -335,7 +335,7 @@ CYCLE: 476 -> 587
 Printing all cache contents ...
 [DL1Cache]
 (0, 0) tag=262140:valid=1:dirty=0:age=0
-(34, 0) tag=32770:valid=1:dirty=0:age=0
+(34, 0) tag=32770:valid=1:dirty=1:age=0
 [IL1Cache]
 (0, 0) tag=261:valid=1:dirty=0:age=0
 (2, 0) tag=256:valid=1:dirty=0:age=0
@@ -351,15 +351,15 @@ Printing all cache contents ...
 ======================================================================
 [MEM CYCLE: 588] STORE: (Seq:       16)(Addr: 2147450848)(PC: 2138132)
 DL1Cache->access(MemWrite, addr: 2147450848, latency: 2)
-L2Cache->access(MemWrite, addr: 2147450848, latency: 12)
-Memory->access(MemWrite, addr: 2147450848, latency: 112)
+L2Cache->access(MemRead, addr: 2147450848, latency: 12)
+Memory->access(MemRead, addr: 2147450848, latency: 112)
 CYCLE: 588 -> 588
 ======================================================================
 Printing all cache contents ...
 [DL1Cache]
 (0, 0) tag=262140:valid=1:dirty=0:age=0
-(34, 0) tag=32770:valid=1:dirty=0:age=0
-(127, 0) tag=262139:valid=1:dirty=0:age=0
+(34, 0) tag=32770:valid=1:dirty=1:age=0
+(127, 0) tag=262139:valid=1:dirty=1:age=0
 [IL1Cache]
 (0, 0) tag=261:valid=1:dirty=0:age=0
 (2, 0) tag=256:valid=1:dirty=0:age=0
@@ -381,8 +381,8 @@ CYCLE: 588 -> 589
 Printing all cache contents ...
 [DL1Cache]
 (0, 0) tag=262140:valid=1:dirty=0:age=0
-(34, 0) tag=32770:valid=1:dirty=0:age=0
-(127, 0) tag=262139:valid=1:dirty=0:age=0
+(34, 0) tag=32770:valid=1:dirty=1:age=0
+(127, 0) tag=262139:valid=1:dirty=1:age=0
 [IL1Cache]
 (0, 0) tag=261:valid=1:dirty=0:age=0
 (2, 0) tag=256:valid=1:dirty=0:age=0
@@ -404,8 +404,8 @@ CYCLE: 590 -> 591
 Printing all cache contents ...
 [DL1Cache]
 (0, 0) tag=262140:valid=1:dirty=0:age=0
-(34, 0) tag=32770:valid=1:dirty=0:age=0
-(127, 0) tag=262139:valid=1:dirty=0:age=0
+(34, 0) tag=32770:valid=1:dirty=1:age=0
+(127, 0) tag=262139:valid=1:dirty=1:age=0
 [IL1Cache]
 (0, 0) tag=261:valid=1:dirty=0:age=0
 (2, 0) tag=256:valid=1:dirty=0:age=0
@@ -427,8 +427,8 @@ CYCLE: 592 -> 593
 Printing all cache contents ...
 [DL1Cache]
 (0, 0) tag=262140:valid=1:dirty=0:age=0
-(34, 0) tag=32770:valid=1:dirty=0:age=0
-(127, 0) tag=262139:valid=1:dirty=0:age=0
+(34, 0) tag=32770:valid=1:dirty=1:age=0
+(127, 0) tag=262139:valid=1:dirty=1:age=0
 [IL1Cache]
 (0, 0) tag=261:valid=1:dirty=0:age=0
 (2, 0) tag=256:valid=1:dirty=0:age=0
@@ -450,7 +450,7 @@ CYCLE: 594 -> 594
 Printing all cache contents ...
 [DL1Cache]
 (0, 0) tag=262140:valid=1:dirty=0:age=0
-(34, 0) tag=32770:valid=1:dirty=0:age=0
+(34, 0) tag=32770:valid=1:dirty=1:age=0
 (127, 0) tag=262139:valid=1:dirty=1:age=0
 [IL1Cache]
 (0, 0) tag=261:valid=1:dirty=0:age=0
@@ -475,7 +475,7 @@ CYCLE: 594 -> 705
 Printing all cache contents ...
 [DL1Cache]
 (0, 0) tag=262140:valid=1:dirty=0:age=0
-(34, 0) tag=32770:valid=1:dirty=0:age=0
+(34, 0) tag=32770:valid=1:dirty=1:age=0
 (127, 0) tag=262139:valid=1:dirty=1:age=0
 [IL1Cache]
 (0, 0) tag=261:valid=1:dirty=0:age=0
@@ -500,7 +500,7 @@ CYCLE: 706 -> 707
 Printing all cache contents ...
 [DL1Cache]
 (0, 0) tag=262140:valid=1:dirty=0:age=0
-(34, 0) tag=32770:valid=1:dirty=0:age=0
+(34, 0) tag=32770:valid=1:dirty=1:age=0
 (127, 0) tag=262139:valid=1:dirty=1:age=0
 [IL1Cache]
 (0, 0) tag=261:valid=1:dirty=0:age=0
@@ -525,7 +525,7 @@ CYCLE: 708 -> 708
 Printing all cache contents ...
 [DL1Cache]
 (0, 0) tag=262140:valid=1:dirty=0:age=0
-(34, 0) tag=32770:valid=1:dirty=0:age=0
+(34, 0) tag=32770:valid=1:dirty=1:age=0
 (127, 0) tag=262139:valid=1:dirty=1:age=0
 [IL1Cache]
 (0, 0) tag=261:valid=1:dirty=0:age=0
@@ -550,7 +550,7 @@ CYCLE: 708 -> 709
 Printing all cache contents ...
 [DL1Cache]
 (0, 0) tag=262140:valid=1:dirty=0:age=0
-(34, 0) tag=32770:valid=1:dirty=0:age=0
+(34, 0) tag=32770:valid=1:dirty=1:age=0
 (127, 0) tag=262139:valid=1:dirty=1:age=0
 [IL1Cache]
 (0, 0) tag=261:valid=1:dirty=0:age=0
@@ -575,7 +575,7 @@ CYCLE: 710 -> 711
 Printing all cache contents ...
 [DL1Cache]
 (0, 0) tag=262140:valid=1:dirty=0:age=0
-(34, 0) tag=32770:valid=1:dirty=0:age=0
+(34, 0) tag=32770:valid=1:dirty=1:age=0
 (127, 0) tag=262139:valid=1:dirty=1:age=0
 [IL1Cache]
 (0, 0) tag=261:valid=1:dirty=0:age=0
@@ -600,7 +600,7 @@ CYCLE: 712 -> 713
 Printing all cache contents ...
 [DL1Cache]
 (0, 0) tag=262140:valid=1:dirty=0:age=0
-(34, 0) tag=32770:valid=1:dirty=0:age=0
+(34, 0) tag=32770:valid=1:dirty=1:age=0
 (127, 0) tag=262139:valid=1:dirty=1:age=0
 [IL1Cache]
 (0, 0) tag=261:valid=1:dirty=0:age=0
@@ -625,7 +625,7 @@ CYCLE: 713 -> 714
 Printing all cache contents ...
 [DL1Cache]
 (0, 0) tag=262140:valid=1:dirty=0:age=0
-(34, 0) tag=32770:valid=1:dirty=0:age=0
+(34, 0) tag=32770:valid=1:dirty=1:age=0
 (127, 0) tag=262139:valid=1:dirty=1:age=0
 [IL1Cache]
 (0, 0) tag=261:valid=1:dirty=0:age=0
@@ -652,7 +652,7 @@ CYCLE: 715 -> 826
 Printing all cache contents ...
 [DL1Cache]
 (0, 0) tag=262140:valid=1:dirty=0:age=0
-(34, 0) tag=32770:valid=1:dirty=0:age=0
+(34, 0) tag=32770:valid=1:dirty=1:age=0
 (127, 0) tag=262139:valid=1:dirty=1:age=0
 [IL1Cache]
 (0, 0) tag=261:valid=1:dirty=0:age=0
@@ -679,7 +679,7 @@ CYCLE: 827 -> 828
 Printing all cache contents ...
 [DL1Cache]
 (0, 0) tag=262140:valid=1:dirty=0:age=0
-(34, 0) tag=32770:valid=1:dirty=0:age=0
+(34, 0) tag=32770:valid=1:dirty=1:age=0
 (127, 0) tag=262139:valid=1:dirty=1:age=0
 [IL1Cache]
 (0, 0) tag=261:valid=1:dirty=0:age=0
@@ -706,7 +706,7 @@ CYCLE: 829 -> 830
 Printing all cache contents ...
 [DL1Cache]
 (0, 0) tag=262140:valid=1:dirty=0:age=0
-(34, 0) tag=32770:valid=1:dirty=0:age=0
+(34, 0) tag=32770:valid=1:dirty=1:age=0
 (127, 0) tag=262139:valid=1:dirty=1:age=0
 [IL1Cache]
 (0, 0) tag=261:valid=1:dirty=0:age=0
@@ -733,7 +733,7 @@ CYCLE: 831 -> 832
 Printing all cache contents ...
 [DL1Cache]
 (0, 0) tag=262140:valid=1:dirty=0:age=0
-(34, 0) tag=32770:valid=1:dirty=0:age=0
+(34, 0) tag=32770:valid=1:dirty=1:age=0
 (127, 0) tag=262139:valid=1:dirty=1:age=0
 [IL1Cache]
 (0, 0) tag=261:valid=1:dirty=0:age=0
@@ -755,15 +755,15 @@ Printing all cache contents ...
 ======================================================================
 [MEM CYCLE: 833] STORE: (Seq:       28)(Addr: 2147450796)(PC: 2140564)
 DL1Cache->access(MemWrite, addr: 2147450796, latency: 2)
-L2Cache->access(MemWrite, addr: 2147450796, latency: 12)
-Memory->access(MemWrite, addr: 2147450796, latency: 112)
+L2Cache->access(MemRead, addr: 2147450796, latency: 12)
+Memory->access(MemRead, addr: 2147450796, latency: 112)
 CYCLE: 833 -> 833
 ======================================================================
 Printing all cache contents ...
 [DL1Cache]
 (0, 0) tag=262140:valid=1:dirty=0:age=0
-(34, 0) tag=32770:valid=1:dirty=0:age=0
-(126, 0) tag=262139:valid=1:dirty=0:age=0
+(34, 0) tag=32770:valid=1:dirty=1:age=0
+(126, 0) tag=262139:valid=1:dirty=1:age=0
 (127, 0) tag=262139:valid=1:dirty=1:age=0
 [IL1Cache]
 (0, 0) tag=261:valid=1:dirty=0:age=0
@@ -791,8 +791,8 @@ CYCLE: 833 -> 834
 Printing all cache contents ...
 [DL1Cache]
 (0, 0) tag=262140:valid=1:dirty=0:age=0
-(34, 0) tag=32770:valid=1:dirty=0:age=0
-(126, 0) tag=262139:valid=1:dirty=0:age=0
+(34, 0) tag=32770:valid=1:dirty=1:age=0
+(126, 0) tag=262139:valid=1:dirty=1:age=0
 (127, 0) tag=262139:valid=1:dirty=1:age=0
 [IL1Cache]
 (0, 0) tag=261:valid=1:dirty=0:age=0
@@ -820,8 +820,8 @@ CYCLE: 835 -> 836
 Printing all cache contents ...
 [DL1Cache]
 (0, 0) tag=262140:valid=1:dirty=0:age=0
-(34, 0) tag=32770:valid=1:dirty=0:age=0
-(126, 0) tag=262139:valid=1:dirty=0:age=0
+(34, 0) tag=32770:valid=1:dirty=1:age=0
+(126, 0) tag=262139:valid=1:dirty=1:age=0
 (127, 0) tag=262139:valid=1:dirty=1:age=0
 [IL1Cache]
 (0, 0) tag=261:valid=1:dirty=0:age=0
@@ -849,7 +849,7 @@ CYCLE: 837 -> 837
 Printing all cache contents ...
 [DL1Cache]
 (0, 0) tag=262140:valid=1:dirty=0:age=0
-(34, 0) tag=32770:valid=1:dirty=0:age=0
+(34, 0) tag=32770:valid=1:dirty=1:age=0
 (126, 0) tag=262139:valid=1:dirty=1:age=0
 (127, 0) tag=262139:valid=1:dirty=1:age=0
 [IL1Cache]
@@ -878,7 +878,7 @@ CYCLE: 837 -> 838
 Printing all cache contents ...
 [DL1Cache]
 (0, 0) tag=262140:valid=1:dirty=0:age=0
-(34, 0) tag=32770:valid=1:dirty=0:age=0
+(34, 0) tag=32770:valid=1:dirty=1:age=0
 (126, 0) tag=262139:valid=1:dirty=1:age=0
 (127, 0) tag=262139:valid=1:dirty=1:age=0
 [IL1Cache]
@@ -907,7 +907,7 @@ CYCLE: 839 -> 839
 Printing all cache contents ...
 [DL1Cache]
 (0, 0) tag=262140:valid=1:dirty=0:age=0
-(34, 0) tag=32770:valid=1:dirty=0:age=0
+(34, 0) tag=32770:valid=1:dirty=1:age=0
 (126, 0) tag=262139:valid=1:dirty=1:age=0
 (127, 0) tag=262139:valid=1:dirty=1:age=0
 [IL1Cache]
@@ -936,7 +936,7 @@ CYCLE: 839 -> 840
 Printing all cache contents ...
 [DL1Cache]
 (0, 0) tag=262140:valid=1:dirty=0:age=0
-(34, 0) tag=32770:valid=1:dirty=0:age=0
+(34, 0) tag=32770:valid=1:dirty=1:age=0
 (126, 0) tag=262139:valid=1:dirty=1:age=0
 (127, 0) tag=262139:valid=1:dirty=1:age=0
 [IL1Cache]
@@ -965,7 +965,7 @@ CYCLE: 841 -> 842
 Printing all cache contents ...
 [DL1Cache]
 (0, 0) tag=262140:valid=1:dirty=0:age=0
-(34, 0) tag=32770:valid=1:dirty=0:age=0
+(34, 0) tag=32770:valid=1:dirty=1:age=0
 (126, 0) tag=262139:valid=1:dirty=1:age=0
 (127, 0) tag=262139:valid=1:dirty=1:age=0
 [IL1Cache]
@@ -996,7 +996,7 @@ CYCLE: 843 -> 954
 Printing all cache contents ...
 [DL1Cache]
 (0, 0) tag=262140:valid=1:dirty=0:age=0
-(34, 0) tag=32770:valid=1:dirty=0:age=0
+(34, 0) tag=32770:valid=1:dirty=1:age=0
 (126, 0) tag=262139:valid=1:dirty=1:age=0
 (127, 0) tag=262139:valid=1:dirty=1:age=0
 [IL1Cache]
@@ -1027,7 +1027,7 @@ CYCLE: 955 -> 956
 Printing all cache contents ...
 [DL1Cache]
 (0, 0) tag=262140:valid=1:dirty=0:age=0
-(34, 0) tag=32770:valid=1:dirty=0:age=0
+(34, 0) tag=32770:valid=1:dirty=1:age=0
 (126, 0) tag=262139:valid=1:dirty=1:age=0
 (127, 0) tag=262139:valid=1:dirty=1:age=0
 [IL1Cache]
@@ -1060,7 +1060,7 @@ CYCLE: 957 -> 1068
 Printing all cache contents ...
 [DL1Cache]
 (0, 0) tag=262140:valid=1:dirty=0:age=0
-(34, 0) tag=32770:valid=1:dirty=0:age=0
+(34, 0) tag=32770:valid=1:dirty=1:age=0
 (126, 0) tag=262139:valid=1:dirty=1:age=0
 (127, 0) tag=262139:valid=1:dirty=1:age=0
 [IL1Cache]
@@ -1093,7 +1093,7 @@ CYCLE: 1069 -> 1070
 Printing all cache contents ...
 [DL1Cache]
 (0, 0) tag=262140:valid=1:dirty=0:age=0
-(34, 0) tag=32770:valid=1:dirty=0:age=0
+(34, 0) tag=32770:valid=1:dirty=1:age=0
 (126, 0) tag=262139:valid=1:dirty=1:age=0
 (127, 0) tag=262139:valid=1:dirty=1:age=0
 [IL1Cache]
@@ -1126,7 +1126,7 @@ CYCLE: 1071 -> 1072
 Printing all cache contents ...
 [DL1Cache]
 (0, 0) tag=262140:valid=1:dirty=0:age=0
-(34, 0) tag=32770:valid=1:dirty=0:age=0
+(34, 0) tag=32770:valid=1:dirty=1:age=0
 (126, 0) tag=262139:valid=1:dirty=1:age=0
 (127, 0) tag=262139:valid=1:dirty=1:age=0
 [IL1Cache]
@@ -1159,7 +1159,7 @@ CYCLE: 1073 -> 1074
 Printing all cache contents ...
 [DL1Cache]
 (0, 0) tag=262140:valid=1:dirty=0:age=0
-(34, 0) tag=32770:valid=1:dirty=0:age=0
+(34, 0) tag=32770:valid=1:dirty=1:age=0
 (126, 0) tag=262139:valid=1:dirty=1:age=0
 (127, 0) tag=262139:valid=1:dirty=1:age=0
 [IL1Cache]
@@ -1192,7 +1192,7 @@ CYCLE: 1075 -> 1076
 Printing all cache contents ...
 [DL1Cache]
 (0, 0) tag=262140:valid=1:dirty=0:age=0
-(34, 0) tag=32770:valid=1:dirty=0:age=0
+(34, 0) tag=32770:valid=1:dirty=1:age=0
 (126, 0) tag=262139:valid=1:dirty=1:age=0
 (127, 0) tag=262139:valid=1:dirty=1:age=0
 [IL1Cache]
@@ -1225,7 +1225,7 @@ CYCLE: 1077 -> 1078
 Printing all cache contents ...
 [DL1Cache]
 (0, 0) tag=262140:valid=1:dirty=0:age=0
-(34, 0) tag=32770:valid=1:dirty=0:age=0
+(34, 0) tag=32770:valid=1:dirty=1:age=0
 (126, 0) tag=262139:valid=1:dirty=1:age=0
 (127, 0) tag=262139:valid=1:dirty=1:age=0
 [IL1Cache]
@@ -1258,7 +1258,7 @@ CYCLE: 1079 -> 1080
 Printing all cache contents ...
 [DL1Cache]
 (0, 0) tag=262140:valid=1:dirty=0:age=0
-(34, 0) tag=32770:valid=1:dirty=0:age=0
+(34, 0) tag=32770:valid=1:dirty=1:age=0
 (126, 0) tag=262139:valid=1:dirty=1:age=0
 (127, 0) tag=262139:valid=1:dirty=1:age=0
 [IL1Cache]
@@ -1291,7 +1291,7 @@ CYCLE: 1081 -> 1082
 Printing all cache contents ...
 [DL1Cache]
 (0, 0) tag=262140:valid=1:dirty=0:age=0
-(34, 0) tag=32770:valid=1:dirty=0:age=0
+(34, 0) tag=32770:valid=1:dirty=1:age=0
 (126, 0) tag=262139:valid=1:dirty=1:age=0
 (127, 0) tag=262139:valid=1:dirty=1:age=0
 [IL1Cache]
@@ -1324,7 +1324,7 @@ CYCLE: 1083 -> 1084
 Printing all cache contents ...
 [DL1Cache]
 (0, 0) tag=262140:valid=1:dirty=0:age=0
-(34, 0) tag=32770:valid=1:dirty=0:age=0
+(34, 0) tag=32770:valid=1:dirty=1:age=0
 (126, 0) tag=262139:valid=1:dirty=1:age=0
 (127, 0) tag=262139:valid=1:dirty=1:age=0
 [IL1Cache]
@@ -1357,7 +1357,7 @@ CYCLE: 1085 -> 1086
 Printing all cache contents ...
 [DL1Cache]
 (0, 0) tag=262140:valid=1:dirty=0:age=0
-(34, 0) tag=32770:valid=1:dirty=0:age=0
+(34, 0) tag=32770:valid=1:dirty=1:age=0
 (126, 0) tag=262139:valid=1:dirty=1:age=0
 (127, 0) tag=262139:valid=1:dirty=1:age=0
 [IL1Cache]
@@ -1392,7 +1392,7 @@ CYCLE: 1087 -> 1198
 Printing all cache contents ...
 [DL1Cache]
 (0, 0) tag=262140:valid=1:dirty=0:age=0
-(34, 0) tag=32770:valid=1:dirty=0:age=0
+(34, 0) tag=32770:valid=1:dirty=1:age=0
 (126, 0) tag=262139:valid=1:dirty=1:age=0
 (127, 0) tag=262139:valid=1:dirty=1:age=0
 [IL1Cache]
@@ -1430,7 +1430,7 @@ Printing all cache contents ...
 [DL1Cache]
 (0, 0) tag=262140:valid=1:dirty=0:age=0
 (3, 0) tag=524280:valid=1:dirty=0:age=0
-(34, 0) tag=32770:valid=1:dirty=0:age=0
+(34, 0) tag=32770:valid=1:dirty=1:age=0
 (126, 0) tag=262139:valid=1:dirty=1:age=0
 (127, 0) tag=262139:valid=1:dirty=1:age=0
 [IL1Cache]
@@ -1467,7 +1467,7 @@ Printing all cache contents ...
 [DL1Cache]
 (0, 0) tag=262140:valid=1:dirty=0:age=0
 (3, 0) tag=524280:valid=1:dirty=0:age=0
-(34, 0) tag=32770:valid=1:dirty=0:age=0
+(34, 0) tag=32770:valid=1:dirty=1:age=0
 (126, 0) tag=262139:valid=1:dirty=1:age=0
 (127, 0) tag=262139:valid=1:dirty=1:age=0
 [IL1Cache]
@@ -1504,7 +1504,7 @@ Printing all cache contents ...
 [DL1Cache]
 (0, 0) tag=262140:valid=1:dirty=0:age=0
 (3, 0) tag=524280:valid=1:dirty=0:age=0
-(34, 0) tag=32770:valid=1:dirty=0:age=0
+(34, 0) tag=32770:valid=1:dirty=1:age=0
 (126, 0) tag=262139:valid=1:dirty=1:age=0
 (127, 0) tag=262139:valid=1:dirty=1:age=0
 [IL1Cache]
@@ -1541,7 +1541,7 @@ Printing all cache contents ...
 [DL1Cache]
 (0, 0) tag=262140:valid=1:dirty=0:age=0
 (3, 0) tag=524280:valid=1:dirty=0:age=0
-(34, 0) tag=32770:valid=1:dirty=0:age=0
+(34, 0) tag=32770:valid=1:dirty=1:age=0
 (126, 0) tag=262139:valid=1:dirty=1:age=0
 (127, 0) tag=262139:valid=1:dirty=1:age=0
 [IL1Cache]
@@ -1578,7 +1578,7 @@ Printing all cache contents ...
 [DL1Cache]
 (0, 0) tag=262140:valid=1:dirty=0:age=0
 (3, 0) tag=524280:valid=1:dirty=0:age=0
-(34, 0) tag=32770:valid=1:dirty=0:age=0
+(34, 0) tag=32770:valid=1:dirty=1:age=0
 (126, 0) tag=262139:valid=1:dirty=1:age=0
 (127, 0) tag=262139:valid=1:dirty=1:age=0
 [IL1Cache]
@@ -1615,7 +1615,7 @@ Printing all cache contents ...
 [DL1Cache]
 (0, 0) tag=262140:valid=1:dirty=0:age=0
 (3, 0) tag=524280:valid=1:dirty=0:age=0
-(34, 0) tag=32770:valid=1:dirty=0:age=0
+(34, 0) tag=32770:valid=1:dirty=1:age=0
 (126, 0) tag=262139:valid=1:dirty=1:age=0
 (127, 0) tag=262139:valid=1:dirty=1:age=0
 [IL1Cache]
@@ -1652,7 +1652,7 @@ Printing all cache contents ...
 [DL1Cache]
 (0, 0) tag=262140:valid=1:dirty=0:age=0
 (3, 0) tag=524280:valid=1:dirty=0:age=0
-(34, 0) tag=32770:valid=1:dirty=0:age=0
+(34, 0) tag=32770:valid=1:dirty=1:age=0
 (126, 0) tag=262139:valid=1:dirty=1:age=0
 (127, 0) tag=262139:valid=1:dirty=1:age=0
 [IL1Cache]
@@ -1689,7 +1689,7 @@ Printing all cache contents ...
 [DL1Cache]
 (0, 0) tag=262140:valid=1:dirty=0:age=0
 (3, 0) tag=524280:valid=1:dirty=0:age=0
-(34, 0) tag=32770:valid=1:dirty=0:age=0
+(34, 0) tag=32770:valid=1:dirty=1:age=0
 (126, 0) tag=262139:valid=1:dirty=1:age=0
 (127, 0) tag=262139:valid=1:dirty=1:age=0
 [IL1Cache]
@@ -1726,7 +1726,7 @@ Printing all cache contents ...
 [DL1Cache]
 (0, 0) tag=262140:valid=1:dirty=0:age=0
 (3, 0) tag=524280:valid=1:dirty=0:age=0
-(34, 0) tag=32770:valid=1:dirty=0:age=0
+(34, 0) tag=32770:valid=1:dirty=1:age=0
 (126, 0) tag=262139:valid=1:dirty=1:age=0
 (127, 0) tag=262139:valid=1:dirty=1:age=0
 [IL1Cache]
@@ -1763,7 +1763,7 @@ Printing all cache contents ...
 [DL1Cache]
 (0, 0) tag=262140:valid=1:dirty=0:age=0
 (3, 0) tag=524280:valid=1:dirty=0:age=0
-(34, 0) tag=32770:valid=1:dirty=0:age=0
+(34, 0) tag=32770:valid=1:dirty=1:age=0
 (126, 0) tag=262139:valid=1:dirty=1:age=0
 (127, 0) tag=262139:valid=1:dirty=1:age=0
 [IL1Cache]
@@ -1800,7 +1800,7 @@ Printing all cache contents ...
 [DL1Cache]
 (0, 0) tag=262140:valid=1:dirty=0:age=0
 (3, 0) tag=524280:valid=1:dirty=0:age=0
-(34, 0) tag=32770:valid=1:dirty=0:age=0
+(34, 0) tag=32770:valid=1:dirty=1:age=0
 (126, 0) tag=262139:valid=1:dirty=1:age=0
 (127, 0) tag=262139:valid=1:dirty=1:age=0
 [IL1Cache]
@@ -1837,7 +1837,7 @@ Printing all cache contents ...
 [DL1Cache]
 (0, 0) tag=262140:valid=1:dirty=0:age=0
 (3, 0) tag=524280:valid=1:dirty=0:age=0
-(34, 0) tag=32770:valid=1:dirty=0:age=0
+(34, 0) tag=32770:valid=1:dirty=1:age=0
 (126, 0) tag=262139:valid=1:dirty=1:age=0
 (127, 0) tag=262139:valid=1:dirty=1:age=0
 [IL1Cache]
@@ -1874,7 +1874,7 @@ Printing all cache contents ...
 [DL1Cache]
 (0, 0) tag=262140:valid=1:dirty=0:age=0
 (3, 0) tag=524280:valid=1:dirty=0:age=0
-(34, 0) tag=32770:valid=1:dirty=0:age=0
+(34, 0) tag=32770:valid=1:dirty=1:age=0
 (126, 0) tag=262139:valid=1:dirty=1:age=0
 (127, 0) tag=262139:valid=1:dirty=1:age=0
 [IL1Cache]
@@ -1911,7 +1911,7 @@ Printing all cache contents ...
 [DL1Cache]
 (0, 0) tag=262140:valid=1:dirty=0:age=0
 (3, 0) tag=524280:valid=1:dirty=0:age=0
-(34, 0) tag=32770:valid=1:dirty=0:age=0
+(34, 0) tag=32770:valid=1:dirty=1:age=0
 (126, 0) tag=262139:valid=1:dirty=1:age=0
 (127, 0) tag=262139:valid=1:dirty=1:age=0
 [IL1Cache]
@@ -1948,7 +1948,7 @@ Printing all cache contents ...
 [DL1Cache]
 (0, 0) tag=262140:valid=1:dirty=0:age=0
 (3, 0) tag=524280:valid=1:dirty=0:age=0
-(34, 0) tag=32770:valid=1:dirty=0:age=0
+(34, 0) tag=32770:valid=1:dirty=1:age=0
 (126, 0) tag=262139:valid=1:dirty=1:age=0
 (127, 0) tag=262139:valid=1:dirty=1:age=0
 [IL1Cache]
@@ -1985,4 +1985,4 @@ CYCLE: 1338 -> 1449
 ======================================================================
 Printing all cache contents ...
 [DL1Cache]
-(0, 0) tag=262140:v
+(0, 0) tag=262140:valid=1

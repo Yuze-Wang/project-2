@@ -49,7 +49,7 @@ CacheLine *CacheCore::accessLine(uint32_t addr)
   for(uint32_t i = 0; i < assoc; i++){
     if(content[numRows * i + row_bit].getTag() == tag_bit && content[numRows * i + row_bit].isValid()){
       for(uint32_t j = 0; j < assoc; j++){
-        if(content[numRows * i + row_bit].isValid() && i != j) content[numRows * i + row_bit].incAge();
+        if(content[numRows * j + row_bit].isValid() && i != j) content[numRows * i + row_bit].incAge();
       }
       content[numRows + i * numLines / assoc].resetAge();
       return &content[numRows * i + row_bit];

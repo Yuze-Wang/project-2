@@ -67,8 +67,8 @@ Printing all cache contents ...
 
 Printing all memory stats ... 
 
-DL1Cache:readHits=0:readMisses=0:writeHits=0:writeMisses=1:writeBacks=0
-IL1Cache:readHits=0:readMisses=0:writeHits=0:writeMisses=1:writeBacks=0
+DL1Cache:readHits=0:readMisses=1:writeHits=0:writeMisses=0:writeBacks=0
+IL1Cache:readHits=0:readMisses=1:writeHits=0:writeMisses=0:writeBacks=0
 L2Cache:readHits=0:readMisses=2:writeHits=0:writeMisses=0:writeBacks=0
 Memory:readHits=2:writeHits=0
 

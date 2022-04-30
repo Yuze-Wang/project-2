@@ -209,9 +209,10 @@ void WTCache::read(MemRequest *mreq)
   CacheLine* line;
   line = cacheCore->accessLine(mreq->getAddr());
   if(line != NULL){
+    readHits.inc();
     return;
   }
-  writeMisses.inc();
+  readMisses.inc();
   getLowerLevelMemObj()->access(mreq);
   cacheCore->allocateLine(mreq->getAddr(), rplcAddr);
 }
@@ -225,11 +226,12 @@ void WTCache::write(MemRequest *mreq)
   CacheLine* line;
   line = cacheCore->accessLine(mreq->getAddr());
   if(line != NULL){
+    writeHits.inc();
     return;
   }
   writeMisses.inc();
   getLowerLevelMemObj()->access(mreq);
-  cacheCore->allocateLine(mreq->getAddr(), rplcAddr);
+  //cacheCore->allocateLine(mreq->getAddr(), rplcAddr);
 }
 
 void WTCache::writeBack(MemRequest *mreq)
