@@ -49,9 +49,12 @@ CacheLine *CacheCore::accessLine(uint32_t addr)
   for(uint32_t i = 0; i < assoc; i++){
     if(content[numRows * i + row_bit].getTag() == tag_bit && content[numRows * i + row_bit].isValid()){
       for(uint32_t j = 0; j < assoc; j++){
-        if(content[numRows * j + row_bit].isValid() && i != j) content[numRows * i + row_bit].incAge();
+        if(content[numRows * j + row_bit].isValid() && i != j){
+          //printf("*(%d, %d) age increase\n", row_bit, j);
+          content[numRows * j + row_bit].incAge();
+        }
       }
-      content[numRows + i * numLines / assoc].resetAge();
+      content[numRows * i + row_bit].resetAge();
       return &content[numRows * i + row_bit];
     }
   }
@@ -87,24 +90,39 @@ CacheLine *CacheCore::allocateLine(uint32_t addr, uint32_t *rplcAddr) {
     printf("row_bit: %x\n", (int)row_bit);
     */
   //}
-  for(uint32_t i = 0; i <= assoc; i++){
+  for(uint32_t i = 0; i < assoc; i++){
     if(!content[numRows * i + row_bit].isValid()){
       //printf("index: %d\n", numRows * i + row_bit);
       content[numRows * i + row_bit].validate();
       content[numRows * i + row_bit].setTag(tag_bit);
       //printf("**************\n");
+      for(uint32_t j = 0; j < assoc; j++){
+        if(content[numRows * j + row_bit].isValid() && i != j){
+          //printf("*(%d, %d) age increase\n", row_bit, j);
+          content[numRows * j + row_bit].incAge();
+        }
+      }
       return &content[numRows * i + row_bit];
     }
+    
     if((int) content[numRows * i + row_bit].getAge() > max_age){
+      
       max_age = content[numRows * i + row_bit].getAge();
       max_age_index = numRows * i + row_bit;
     }
   }
-  
+  //printf("***************");
+  //printf("*(%d, %d) max_age\n", index2Row(max_age_index), index2Column(max_age_index));
   if(content[max_age_index].isDirty()) rplcAddr = &addr;
   content[max_age_index].initialize();
   content[max_age_index].setTag(tag_bit);
   content[max_age_index].validate();
+  for(uint32_t j = 0; j < assoc; j++){
+        if(content[numRows * j + row_bit].isValid() && index2Column(max_age_index) != j){
+          printf("*(%d, %d) age increase\n", row_bit, j);
+          content[numRows * j + row_bit].incAge();
+        }
+      }
   return &content[max_age_index];
 
 }
