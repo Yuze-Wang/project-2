@@ -46,7 +46,7 @@ Printing all cache contents ...
 [IL1Cache]
 (2, 0) tag=256:valid=1:dirty=0:age=0
 [L2Cache]
-(2, 2) tag=512:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
 ======================================================================
 [IF CYCLE: 113] ITYPE: (Seq:        2)(Addr: 4097)(PC: 2097316)
 IL1Cache->access(MemRead, addr: 2097316, latency: 2)
@@ -57,7 +57,7 @@ Printing all cache contents ...
 [IL1Cache]
 (2, 0) tag=256:valid=1:dirty=0:age=0
 [L2Cache]
-(2, 2) tag=512:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
 ======================================================================
 [IF CYCLE: 115] ITYPE: (Seq:        3)(Addr: 4294950912)(PC: 2097320)
 IL1Cache->access(MemRead, addr: 2097320, latency: 2)
@@ -68,7 +68,7 @@ Printing all cache contents ...
 [IL1Cache]
 (2, 0) tag=256:valid=1:dirty=0:age=0
 [L2Cache]
-(2, 2) tag=512:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
 ======================================================================
 [MEM CYCLE: 117] LOAD: (Seq:        1)(Addr: 2147450880)(PC: 2097312)
 DL1Cache->access(MemRead, addr: 2147450880, latency: 2)
@@ -83,7 +83,7 @@ Printing all cache contents ...
 (2, 0) tag=256:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
 ======================================================================
 [IF CYCLE: 228] ITYPE: (Seq:        4)(Addr: 4)(PC: 2097324)
 IL1Cache->access(MemRead, addr: 2097324, latency: 2)
@@ -96,7 +96,7 @@ Printing all cache contents ...
 (2, 0) tag=256:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
 ======================================================================
 [IF CYCLE: 230] ITYPE: (Seq:        5)(Addr: 4)(PC: 2097328)
 IL1Cache->access(MemRead, addr: 2097328, latency: 2)
@@ -109,7 +109,7 @@ Printing all cache contents ...
 (2, 0) tag=256:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
 ======================================================================
 [IF CYCLE: 232] ITYPE: (Seq:        6)(Addr: 2)(PC: 2097332)
 IL1Cache->access(MemRead, addr: 2097332, latency: 2)
@@ -122,7 +122,7 @@ Printing all cache contents ...
 (2, 0) tag=256:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
 ======================================================================
 [IF CYCLE: 234] RTYPE: (Seq:        7)(Addr: 0)(PC: 2097336)
 IL1Cache->access(MemRead, addr: 2097336, latency: 2)
@@ -135,7 +135,7 @@ Printing all cache contents ...
 (2, 0) tag=256:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
 ======================================================================
 [IF CYCLE: 236] RTYPE: (Seq:        8)(Addr: 0)(PC: 2097340)
 IL1Cache->access(MemRead, addr: 2097340, latency: 2)
@@ -148,7 +148,7 @@ Printing all cache contents ...
 (2, 0) tag=256:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
 ======================================================================
 [IF CYCLE: 238] STORE: (Seq:        9)(Addr: 268454020)(PC: 2097344)
 IL1Cache->access(MemRead, addr: 2097344, latency: 2)
@@ -164,8 +164,8 @@ Printing all cache contents ...
 (3, 0) tag=256:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
-(3, 3) tag=512:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
+(3, 0) tag=512:valid=1:dirty=0:age=0
 ======================================================================
 [IF CYCLE: 350] ITYPE: (Seq:       10)(Addr: 4294967272)(PC: 2097348)
 IL1Cache->access(MemRead, addr: 2097348, latency: 2)
@@ -179,8 +179,8 @@ Printing all cache contents ...
 (3, 0) tag=256:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
-(3, 3) tag=512:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
+(3, 0) tag=512:valid=1:dirty=0:age=0
 ======================================================================
 [IF CYCLE: 352] RTYPE: (Seq:       11)(Addr: 0)(PC: 2097352)
 IL1Cache->access(MemRead, addr: 2097352, latency: 2)
@@ -194,8 +194,8 @@ Printing all cache contents ...
 (3, 0) tag=256:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
-(3, 3) tag=512:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
+(3, 0) tag=512:valid=1:dirty=0:age=0
 ======================================================================
 [MEM CYCLE: 354] STORE: (Seq:        9)(Addr: 268454020)(PC: 2097344)
 DL1Cache->access(MemWrite, addr: 268454020, latency: 2)
@@ -212,9 +212,9 @@ Printing all cache contents ...
 (3, 0) tag=256:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
-(3, 3) tag=512:valid=1:dirty=0:age=0
-(34, 2) tag=65540:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
+(3, 0) tag=512:valid=1:dirty=0:age=0
+(34, 0) tag=65540:valid=1:dirty=0:age=0
 ======================================================================
 [IF CYCLE: 354] RTYPE: (Seq:       12)(Addr: 0)(PC: 2097356)
 IL1Cache->access(MemRead, addr: 2097356, latency: 2)
@@ -229,9 +229,9 @@ Printing all cache contents ...
 (3, 0) tag=256:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
-(3, 3) tag=512:valid=1:dirty=0:age=0
-(34, 2) tag=65540:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
+(3, 0) tag=512:valid=1:dirty=0:age=0
+(34, 0) tag=65540:valid=1:dirty=0:age=0
 ======================================================================
 [IF CYCLE: 356] RTYPE: (Seq:       13)(Addr: 0)(PC: 2097360)
 IL1Cache->access(MemRead, addr: 2097360, latency: 2)
@@ -246,9 +246,9 @@ Printing all cache contents ...
 (3, 0) tag=256:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
-(3, 3) tag=512:valid=1:dirty=0:age=0
-(34, 2) tag=65540:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
+(3, 0) tag=512:valid=1:dirty=0:age=0
+(34, 0) tag=65540:valid=1:dirty=0:age=0
 ======================================================================
 [IF CYCLE: 358] JTYPE: (Seq:       14)(Addr: 2138128)(PC: 2097364)
 IL1Cache->access(MemRead, addr: 2097364, latency: 2)
@@ -263,9 +263,9 @@ Printing all cache contents ...
 (3, 0) tag=256:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
-(3, 3) tag=512:valid=1:dirty=0:age=0
-(34, 2) tag=65540:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
+(3, 0) tag=512:valid=1:dirty=0:age=0
+(34, 0) tag=65540:valid=1:dirty=0:age=0
 ======================================================================
 [IF CYCLE: 360] ITYPE: (Seq:       15)(Addr: 4294967272)(PC: 2138128)
 IL1Cache->access(MemRead, addr: 2138128, latency: 2)
@@ -283,10 +283,10 @@ Printing all cache contents ...
 (3, 0) tag=256:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
-(3, 3) tag=512:valid=1:dirty=0:age=0
-(34, 2) tag=65540:valid=1:dirty=0:age=0
-(64, 0) tag=522:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
+(3, 0) tag=512:valid=1:dirty=0:age=0
+(34, 0) tag=65540:valid=1:dirty=0:age=0
+(0, 1) tag=522:valid=1:dirty=0:age=0
 ======================================================================
 [IF CYCLE: 472] STORE: (Seq:       16)(Addr: 2147450848)(PC: 2138132)
 IL1Cache->access(MemRead, addr: 2138132, latency: 2)
@@ -302,10 +302,10 @@ Printing all cache contents ...
 (3, 0) tag=256:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
-(3, 3) tag=512:valid=1:dirty=0:age=0
-(34, 2) tag=65540:valid=1:dirty=0:age=0
-(64, 0) tag=522:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
+(3, 0) tag=512:valid=1:dirty=0:age=0
+(34, 0) tag=65540:valid=1:dirty=0:age=0
+(0, 1) tag=522:valid=1:dirty=0:age=0
 ======================================================================
 [IF CYCLE: 474] JTYPE: (Seq:       17)(Addr: 2149744)(PC: 2138136)
 IL1Cache->access(MemRead, addr: 2138136, latency: 2)
@@ -321,10 +321,10 @@ Printing all cache contents ...
 (3, 0) tag=256:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
-(3, 3) tag=512:valid=1:dirty=0:age=0
-(34, 2) tag=65540:valid=1:dirty=0:age=0
-(64, 0) tag=522:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
+(3, 0) tag=512:valid=1:dirty=0:age=0
+(34, 0) tag=65540:valid=1:dirty=0:age=0
+(0, 1) tag=522:valid=1:dirty=0:age=0
 ======================================================================
 [IF CYCLE: 476] ITYPE: (Seq:       18)(Addr: 4294967272)(PC: 2149744)
 IL1Cache->access(MemRead, addr: 2149744, latency: 2)
@@ -343,11 +343,11 @@ Printing all cache contents ...
 (53, 0) tag=262:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
-(3, 3) tag=512:valid=1:dirty=0:age=0
-(34, 2) tag=65540:valid=1:dirty=0:age=0
-(53, 1) tag=524:valid=1:dirty=0:age=0
-(64, 0) tag=522:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
+(3, 0) tag=512:valid=1:dirty=0:age=0
+(34, 0) tag=65540:valid=1:dirty=0:age=0
+(53, 0) tag=524:valid=1:dirty=0:age=0
+(0, 1) tag=522:valid=1:dirty=0:age=0
 ======================================================================
 [MEM CYCLE: 588] STORE: (Seq:       16)(Addr: 2147450848)(PC: 2138132)
 DL1Cache->access(MemWrite, addr: 2147450848, latency: 2)
@@ -367,12 +367,12 @@ Printing all cache contents ...
 (53, 0) tag=262:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
-(3, 3) tag=512:valid=1:dirty=0:age=0
-(34, 2) tag=65540:valid=1:dirty=0:age=0
-(53, 1) tag=524:valid=1:dirty=0:age=0
-(63, 3) tag=524279:valid=1:dirty=0:age=0
-(64, 0) tag=522:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
+(3, 0) tag=512:valid=1:dirty=0:age=0
+(34, 0) tag=65540:valid=1:dirty=0:age=0
+(53, 0) tag=524:valid=1:dirty=0:age=0
+(63, 0) tag=524279:valid=1:dirty=0:age=0
+(0, 1) tag=522:valid=1:dirty=0:age=0
 ======================================================================
 [IF CYCLE: 588] STORE: (Seq:       19)(Addr: 2147450824)(PC: 2149748)
 IL1Cache->access(MemRead, addr: 2149748, latency: 2)
@@ -390,12 +390,12 @@ Printing all cache contents ...
 (53, 0) tag=262:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
-(3, 3) tag=512:valid=1:dirty=0:age=0
-(34, 2) tag=65540:valid=1:dirty=0:age=0
-(53, 1) tag=524:valid=1:dirty=0:age=0
-(63, 3) tag=524279:valid=1:dirty=0:age=0
-(64, 0) tag=522:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
+(3, 0) tag=512:valid=1:dirty=0:age=0
+(34, 0) tag=65540:valid=1:dirty=0:age=0
+(53, 0) tag=524:valid=1:dirty=0:age=0
+(63, 0) tag=524279:valid=1:dirty=0:age=0
+(0, 1) tag=522:valid=1:dirty=0:age=0
 ======================================================================
 [IF CYCLE: 590] RTYPE: (Seq:       20)(Addr: 0)(PC: 2149752)
 IL1Cache->access(MemRead, addr: 2149752, latency: 2)
@@ -413,12 +413,12 @@ Printing all cache contents ...
 (53, 0) tag=262:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
-(3, 3) tag=512:valid=1:dirty=0:age=0
-(34, 2) tag=65540:valid=1:dirty=0:age=0
-(53, 1) tag=524:valid=1:dirty=0:age=0
-(63, 3) tag=524279:valid=1:dirty=0:age=0
-(64, 0) tag=522:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
+(3, 0) tag=512:valid=1:dirty=0:age=0
+(34, 0) tag=65540:valid=1:dirty=0:age=0
+(53, 0) tag=524:valid=1:dirty=0:age=0
+(63, 0) tag=524279:valid=1:dirty=0:age=0
+(0, 1) tag=522:valid=1:dirty=0:age=0
 ======================================================================
 [IF CYCLE: 592] STORE: (Seq:       21)(Addr: 2147450828)(PC: 2149756)
 IL1Cache->access(MemRead, addr: 2149756, latency: 2)
@@ -436,12 +436,12 @@ Printing all cache contents ...
 (53, 0) tag=262:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
-(3, 3) tag=512:valid=1:dirty=0:age=0
-(34, 2) tag=65540:valid=1:dirty=0:age=0
-(53, 1) tag=524:valid=1:dirty=0:age=0
-(63, 3) tag=524279:valid=1:dirty=0:age=0
-(64, 0) tag=522:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
+(3, 0) tag=512:valid=1:dirty=0:age=0
+(34, 0) tag=65540:valid=1:dirty=0:age=0
+(53, 0) tag=524:valid=1:dirty=0:age=0
+(63, 0) tag=524279:valid=1:dirty=0:age=0
+(0, 1) tag=522:valid=1:dirty=0:age=0
 ======================================================================
 [MEM CYCLE: 594] STORE: (Seq:       19)(Addr: 2147450824)(PC: 2149748)
 DL1Cache->access(MemWrite, addr: 2147450824, latency: 2)
@@ -459,12 +459,12 @@ Printing all cache contents ...
 (53, 0) tag=262:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
-(3, 3) tag=512:valid=1:dirty=0:age=0
-(34, 2) tag=65540:valid=1:dirty=0:age=0
-(53, 1) tag=524:valid=1:dirty=0:age=0
-(63, 3) tag=524279:valid=1:dirty=0:age=0
-(64, 0) tag=522:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
+(3, 0) tag=512:valid=1:dirty=0:age=0
+(34, 0) tag=65540:valid=1:dirty=0:age=0
+(53, 0) tag=524:valid=1:dirty=0:age=0
+(63, 0) tag=524279:valid=1:dirty=0:age=0
+(0, 1) tag=522:valid=1:dirty=0:age=0
 ======================================================================
 [IF CYCLE: 594] BRANCH: (Seq:       22)(Addr: 2149800)(PC: 2149760)
 IL1Cache->access(MemRead, addr: 2149760, latency: 2)
@@ -485,13 +485,13 @@ Printing all cache contents ...
 (54, 0) tag=262:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
-(3, 3) tag=512:valid=1:dirty=0:age=0
-(34, 2) tag=65540:valid=1:dirty=0:age=0
-(53, 1) tag=524:valid=1:dirty=0:age=0
-(54, 2) tag=524:valid=1:dirty=0:age=0
-(63, 3) tag=524279:valid=1:dirty=0:age=0
-(64, 0) tag=522:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
+(3, 0) tag=512:valid=1:dirty=0:age=0
+(34, 0) tag=65540:valid=1:dirty=0:age=0
+(53, 0) tag=524:valid=1:dirty=0:age=0
+(54, 0) tag=524:valid=1:dirty=0:age=0
+(63, 0) tag=524279:valid=1:dirty=0:age=0
+(0, 1) tag=522:valid=1:dirty=0:age=0
 ======================================================================
 [IF CYCLE: 706] LOAD: (Seq:       23)(Addr: 2147450887)(PC: 2149764)
 IL1Cache->access(MemRead, addr: 2149764, latency: 2)
@@ -510,13 +510,13 @@ Printing all cache contents ...
 (54, 0) tag=262:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
-(3, 3) tag=512:valid=1:dirty=0:age=0
-(34, 2) tag=65540:valid=1:dirty=0:age=0
-(53, 1) tag=524:valid=1:dirty=0:age=0
-(54, 2) tag=524:valid=1:dirty=0:age=0
-(63, 3) tag=524279:valid=1:dirty=0:age=0
-(64, 0) tag=522:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
+(3, 0) tag=512:valid=1:dirty=0:age=0
+(34, 0) tag=65540:valid=1:dirty=0:age=0
+(53, 0) tag=524:valid=1:dirty=0:age=0
+(54, 0) tag=524:valid=1:dirty=0:age=0
+(63, 0) tag=524279:valid=1:dirty=0:age=0
+(0, 1) tag=522:valid=1:dirty=0:age=0
 ======================================================================
 [MEM CYCLE: 708] STORE: (Seq:       21)(Addr: 2147450828)(PC: 2149756)
 DL1Cache->access(MemWrite, addr: 2147450828, latency: 2)
@@ -535,13 +535,13 @@ Printing all cache contents ...
 (54, 0) tag=262:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
-(3, 3) tag=512:valid=1:dirty=0:age=0
-(34, 2) tag=65540:valid=1:dirty=0:age=0
-(53, 1) tag=524:valid=1:dirty=0:age=0
-(54, 2) tag=524:valid=1:dirty=0:age=0
-(63, 3) tag=524279:valid=1:dirty=0:age=0
-(64, 0) tag=522:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
+(3, 0) tag=512:valid=1:dirty=0:age=0
+(34, 0) tag=65540:valid=1:dirty=0:age=0
+(53, 0) tag=524:valid=1:dirty=0:age=0
+(54, 0) tag=524:valid=1:dirty=0:age=0
+(63, 0) tag=524279:valid=1:dirty=0:age=0
+(0, 1) tag=522:valid=1:dirty=0:age=0
 ======================================================================
 [IF CYCLE: 708] BRANCH: (Seq:       24)(Addr: 2149800)(PC: 2149768)
 IL1Cache->access(MemRead, addr: 2149768, latency: 2)
@@ -560,13 +560,13 @@ Printing all cache contents ...
 (54, 0) tag=262:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
-(3, 3) tag=512:valid=1:dirty=0:age=0
-(34, 2) tag=65540:valid=1:dirty=0:age=0
-(53, 1) tag=524:valid=1:dirty=0:age=0
-(54, 2) tag=524:valid=1:dirty=0:age=0
-(63, 3) tag=524279:valid=1:dirty=0:age=0
-(64, 0) tag=522:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
+(3, 0) tag=512:valid=1:dirty=0:age=0
+(34, 0) tag=65540:valid=1:dirty=0:age=0
+(53, 0) tag=524:valid=1:dirty=0:age=0
+(54, 0) tag=524:valid=1:dirty=0:age=0
+(63, 0) tag=524279:valid=1:dirty=0:age=0
+(0, 1) tag=522:valid=1:dirty=0:age=0
 ======================================================================
 [IF CYCLE: 710] ITYPE: (Seq:       25)(Addr: 47)(PC: 2149772)
 IL1Cache->access(MemRead, addr: 2149772, latency: 2)
@@ -585,13 +585,13 @@ Printing all cache contents ...
 (54, 0) tag=262:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
-(3, 3) tag=512:valid=1:dirty=0:age=0
-(34, 2) tag=65540:valid=1:dirty=0:age=0
-(53, 1) tag=524:valid=1:dirty=0:age=0
-(54, 2) tag=524:valid=1:dirty=0:age=0
-(63, 3) tag=524279:valid=1:dirty=0:age=0
-(64, 0) tag=522:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
+(3, 0) tag=512:valid=1:dirty=0:age=0
+(34, 0) tag=65540:valid=1:dirty=0:age=0
+(53, 0) tag=524:valid=1:dirty=0:age=0
+(54, 0) tag=524:valid=1:dirty=0:age=0
+(63, 0) tag=524279:valid=1:dirty=0:age=0
+(0, 1) tag=522:valid=1:dirty=0:age=0
 ======================================================================
 [MEM CYCLE: 712] LOAD: (Seq:       23)(Addr: 2147450887)(PC: 2149764)
 DL1Cache->access(MemRead, addr: 2147450887, latency: 2)
@@ -610,13 +610,13 @@ Printing all cache contents ...
 (54, 0) tag=262:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
-(3, 3) tag=512:valid=1:dirty=0:age=0
-(34, 2) tag=65540:valid=1:dirty=0:age=0
-(53, 1) tag=524:valid=1:dirty=0:age=0
-(54, 2) tag=524:valid=1:dirty=0:age=0
-(63, 3) tag=524279:valid=1:dirty=0:age=0
-(64, 0) tag=522:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
+(3, 0) tag=512:valid=1:dirty=0:age=0
+(34, 0) tag=65540:valid=1:dirty=0:age=0
+(53, 0) tag=524:valid=1:dirty=0:age=0
+(54, 0) tag=524:valid=1:dirty=0:age=0
+(63, 0) tag=524279:valid=1:dirty=0:age=0
+(0, 1) tag=522:valid=1:dirty=0:age=0
 ======================================================================
 [IF CYCLE: 713] JTYPE: (Seq:       26)(Addr: 2140560)(PC: 2149776)
 IL1Cache->access(MemRead, addr: 2149776, latency: 2)
@@ -635,13 +635,13 @@ Printing all cache contents ...
 (54, 0) tag=262:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
-(3, 3) tag=512:valid=1:dirty=0:age=0
-(34, 2) tag=65540:valid=1:dirty=0:age=0
-(53, 1) tag=524:valid=1:dirty=0:age=0
-(54, 2) tag=524:valid=1:dirty=0:age=0
-(63, 3) tag=524279:valid=1:dirty=0:age=0
-(64, 0) tag=522:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
+(3, 0) tag=512:valid=1:dirty=0:age=0
+(34, 0) tag=65540:valid=1:dirty=0:age=0
+(53, 0) tag=524:valid=1:dirty=0:age=0
+(54, 0) tag=524:valid=1:dirty=0:age=0
+(63, 0) tag=524279:valid=1:dirty=0:age=0
+(0, 1) tag=522:valid=1:dirty=0:age=0
 ======================================================================
 [IF CYCLE: 715] ITYPE: (Seq:       27)(Addr: 4294967264)(PC: 2140560)
 IL1Cache->access(MemRead, addr: 2140560, latency: 2)
@@ -663,14 +663,14 @@ Printing all cache contents ...
 (54, 0) tag=262:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
-(3, 3) tag=512:valid=1:dirty=0:age=0
-(34, 2) tag=65540:valid=1:dirty=0:age=0
-(38, 2) tag=522:valid=1:dirty=0:age=0
-(53, 1) tag=524:valid=1:dirty=0:age=0
-(54, 2) tag=524:valid=1:dirty=0:age=0
-(63, 3) tag=524279:valid=1:dirty=0:age=0
-(64, 0) tag=522:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
+(3, 0) tag=512:valid=1:dirty=0:age=0
+(34, 0) tag=65540:valid=1:dirty=0:age=0
+(38, 0) tag=522:valid=1:dirty=0:age=0
+(53, 0) tag=524:valid=1:dirty=0:age=0
+(54, 0) tag=524:valid=1:dirty=0:age=0
+(63, 0) tag=524279:valid=1:dirty=0:age=0
+(0, 1) tag=522:valid=1:dirty=0:age=0
 ======================================================================
 [IF CYCLE: 827] STORE: (Seq:       28)(Addr: 2147450796)(PC: 2140564)
 IL1Cache->access(MemRead, addr: 2140564, latency: 2)
@@ -690,14 +690,14 @@ Printing all cache contents ...
 (54, 0) tag=262:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
-(3, 3) tag=512:valid=1:dirty=0:age=0
-(34, 2) tag=65540:valid=1:dirty=0:age=0
-(38, 2) tag=522:valid=1:dirty=0:age=0
-(53, 1) tag=524:valid=1:dirty=0:age=0
-(54, 2) tag=524:valid=1:dirty=0:age=0
-(63, 3) tag=524279:valid=1:dirty=0:age=0
-(64, 0) tag=522:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
+(3, 0) tag=512:valid=1:dirty=0:age=0
+(34, 0) tag=65540:valid=1:dirty=0:age=0
+(38, 0) tag=522:valid=1:dirty=0:age=0
+(53, 0) tag=524:valid=1:dirty=0:age=0
+(54, 0) tag=524:valid=1:dirty=0:age=0
+(63, 0) tag=524279:valid=1:dirty=0:age=0
+(0, 1) tag=522:valid=1:dirty=0:age=0
 ======================================================================
 [IF CYCLE: 829] ITYPE: (Seq:       29)(Addr: 255)(PC: 2140568)
 IL1Cache->access(MemRead, addr: 2140568, latency: 2)
@@ -717,14 +717,14 @@ Printing all cache contents ...
 (54, 0) tag=262:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
-(3, 3) tag=512:valid=1:dirty=0:age=0
-(34, 2) tag=65540:valid=1:dirty=0:age=0
-(38, 2) tag=522:valid=1:dirty=0:age=0
-(53, 1) tag=524:valid=1:dirty=0:age=0
-(54, 2) tag=524:valid=1:dirty=0:age=0
-(63, 3) tag=524279:valid=1:dirty=0:age=0
-(64, 0) tag=522:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
+(3, 0) tag=512:valid=1:dirty=0:age=0
+(34, 0) tag=65540:valid=1:dirty=0:age=0
+(38, 0) tag=522:valid=1:dirty=0:age=0
+(53, 0) tag=524:valid=1:dirty=0:age=0
+(54, 0) tag=524:valid=1:dirty=0:age=0
+(63, 0) tag=524279:valid=1:dirty=0:age=0
+(0, 1) tag=522:valid=1:dirty=0:age=0
 ======================================================================
 [IF CYCLE: 831] STORE: (Seq:       30)(Addr: 2147450800)(PC: 2140572)
 IL1Cache->access(MemRead, addr: 2140572, latency: 2)
@@ -744,14 +744,14 @@ Printing all cache contents ...
 (54, 0) tag=262:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
-(3, 3) tag=512:valid=1:dirty=0:age=0
-(34, 2) tag=65540:valid=1:dirty=0:age=0
-(38, 2) tag=522:valid=1:dirty=0:age=0
-(53, 1) tag=524:valid=1:dirty=0:age=0
-(54, 2) tag=524:valid=1:dirty=0:age=0
-(63, 3) tag=524279:valid=1:dirty=0:age=0
-(64, 0) tag=522:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
+(3, 0) tag=512:valid=1:dirty=0:age=0
+(34, 0) tag=65540:valid=1:dirty=0:age=0
+(38, 0) tag=522:valid=1:dirty=0:age=0
+(53, 0) tag=524:valid=1:dirty=0:age=0
+(54, 0) tag=524:valid=1:dirty=0:age=0
+(63, 0) tag=524279:valid=1:dirty=0:age=0
+(0, 1) tag=522:valid=1:dirty=0:age=0
 ======================================================================
 [MEM CYCLE: 833] STORE: (Seq:       28)(Addr: 2147450796)(PC: 2140564)
 DL1Cache->access(MemWrite, addr: 2147450796, latency: 2)
@@ -774,15 +774,15 @@ Printing all cache contents ...
 (54, 0) tag=262:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
-(3, 3) tag=512:valid=1:dirty=0:age=0
-(34, 2) tag=65540:valid=1:dirty=0:age=0
-(38, 2) tag=522:valid=1:dirty=0:age=0
-(53, 1) tag=524:valid=1:dirty=0:age=0
-(54, 2) tag=524:valid=1:dirty=0:age=0
-(62, 2) tag=524279:valid=1:dirty=0:age=0
-(63, 3) tag=524279:valid=1:dirty=0:age=0
-(64, 0) tag=522:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
+(3, 0) tag=512:valid=1:dirty=0:age=0
+(34, 0) tag=65540:valid=1:dirty=0:age=0
+(38, 0) tag=522:valid=1:dirty=0:age=0
+(53, 0) tag=524:valid=1:dirty=0:age=0
+(54, 0) tag=524:valid=1:dirty=0:age=0
+(62, 0) tag=524279:valid=1:dirty=0:age=0
+(63, 0) tag=524279:valid=1:dirty=0:age=0
+(0, 1) tag=522:valid=1:dirty=0:age=0
 ======================================================================
 [IF CYCLE: 833] STORE: (Seq:       31)(Addr: 2147450792)(PC: 2140576)
 IL1Cache->access(MemRead, addr: 2140576, latency: 2)
@@ -803,15 +803,15 @@ Printing all cache contents ...
 (54, 0) tag=262:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
-(3, 3) tag=512:valid=1:dirty=0:age=0
-(34, 2) tag=65540:valid=1:dirty=0:age=0
-(38, 2) tag=522:valid=1:dirty=0:age=0
-(53, 1) tag=524:valid=1:dirty=0:age=0
-(54, 2) tag=524:valid=1:dirty=0:age=0
-(62, 2) tag=524279:valid=1:dirty=0:age=0
-(63, 3) tag=524279:valid=1:dirty=0:age=0
-(64, 0) tag=522:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
+(3, 0) tag=512:valid=1:dirty=0:age=0
+(34, 0) tag=65540:valid=1:dirty=0:age=0
+(38, 0) tag=522:valid=1:dirty=0:age=0
+(53, 0) tag=524:valid=1:dirty=0:age=0
+(54, 0) tag=524:valid=1:dirty=0:age=0
+(62, 0) tag=524279:valid=1:dirty=0:age=0
+(63, 0) tag=524279:valid=1:dirty=0:age=0
+(0, 1) tag=522:valid=1:dirty=0:age=0
 ======================================================================
 [IF CYCLE: 835] BRANCH: (Seq:       32)(Addr: 2140596)(PC: 2140580)
 IL1Cache->access(MemRead, addr: 2140580, latency: 2)
@@ -832,15 +832,15 @@ Printing all cache contents ...
 (54, 0) tag=262:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
-(3, 3) tag=512:valid=1:dirty=0:age=0
-(34, 2) tag=65540:valid=1:dirty=0:age=0
-(38, 2) tag=522:valid=1:dirty=0:age=0
-(53, 1) tag=524:valid=1:dirty=0:age=0
-(54, 2) tag=524:valid=1:dirty=0:age=0
-(62, 2) tag=524279:valid=1:dirty=0:age=0
-(63, 3) tag=524279:valid=1:dirty=0:age=0
-(64, 0) tag=522:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
+(3, 0) tag=512:valid=1:dirty=0:age=0
+(34, 0) tag=65540:valid=1:dirty=0:age=0
+(38, 0) tag=522:valid=1:dirty=0:age=0
+(53, 0) tag=524:valid=1:dirty=0:age=0
+(54, 0) tag=524:valid=1:dirty=0:age=0
+(62, 0) tag=524279:valid=1:dirty=0:age=0
+(63, 0) tag=524279:valid=1:dirty=0:age=0
+(0, 1) tag=522:valid=1:dirty=0:age=0
 ======================================================================
 [MEM CYCLE: 837] STORE: (Seq:       30)(Addr: 2147450800)(PC: 2140572)
 DL1Cache->access(MemWrite, addr: 2147450800, latency: 2)
@@ -861,15 +861,15 @@ Printing all cache contents ...
 (54, 0) tag=262:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
-(3, 3) tag=512:valid=1:dirty=0:age=0
-(34, 2) tag=65540:valid=1:dirty=0:age=0
-(38, 2) tag=522:valid=1:dirty=0:age=0
-(53, 1) tag=524:valid=1:dirty=0:age=0
-(54, 2) tag=524:valid=1:dirty=0:age=0
-(62, 2) tag=524279:valid=1:dirty=0:age=0
-(63, 3) tag=524279:valid=1:dirty=0:age=0
-(64, 0) tag=522:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
+(3, 0) tag=512:valid=1:dirty=0:age=0
+(34, 0) tag=65540:valid=1:dirty=0:age=0
+(38, 0) tag=522:valid=1:dirty=0:age=0
+(53, 0) tag=524:valid=1:dirty=0:age=0
+(54, 0) tag=524:valid=1:dirty=0:age=0
+(62, 0) tag=524279:valid=1:dirty=0:age=0
+(63, 0) tag=524279:valid=1:dirty=0:age=0
+(0, 1) tag=522:valid=1:dirty=0:age=0
 ======================================================================
 [IF CYCLE: 837] RTYPE: (Seq:       33)(Addr: 0)(PC: 2140596)
 IL1Cache->access(MemRead, addr: 2140596, latency: 2)
@@ -890,15 +890,15 @@ Printing all cache contents ...
 (54, 0) tag=262:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
-(3, 3) tag=512:valid=1:dirty=0:age=0
-(34, 2) tag=65540:valid=1:dirty=0:age=0
-(38, 2) tag=522:valid=1:dirty=0:age=0
-(53, 1) tag=524:valid=1:dirty=0:age=0
-(54, 2) tag=524:valid=1:dirty=0:age=0
-(62, 2) tag=524279:valid=1:dirty=0:age=0
-(63, 3) tag=524279:valid=1:dirty=0:age=0
-(64, 0) tag=522:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
+(3, 0) tag=512:valid=1:dirty=0:age=0
+(34, 0) tag=65540:valid=1:dirty=0:age=0
+(38, 0) tag=522:valid=1:dirty=0:age=0
+(53, 0) tag=524:valid=1:dirty=0:age=0
+(54, 0) tag=524:valid=1:dirty=0:age=0
+(62, 0) tag=524279:valid=1:dirty=0:age=0
+(63, 0) tag=524279:valid=1:dirty=0:age=0
+(0, 1) tag=522:valid=1:dirty=0:age=0
 ======================================================================
 [MEM CYCLE: 839] STORE: (Seq:       31)(Addr: 2147450792)(PC: 2140576)
 DL1Cache->access(MemWrite, addr: 2147450792, latency: 2)
@@ -919,15 +919,15 @@ Printing all cache contents ...
 (54, 0) tag=262:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
-(3, 3) tag=512:valid=1:dirty=0:age=0
-(34, 2) tag=65540:valid=1:dirty=0:age=0
-(38, 2) tag=522:valid=1:dirty=0:age=0
-(53, 1) tag=524:valid=1:dirty=0:age=0
-(54, 2) tag=524:valid=1:dirty=0:age=0
-(62, 2) tag=524279:valid=1:dirty=0:age=0
-(63, 3) tag=524279:valid=1:dirty=0:age=0
-(64, 0) tag=522:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
+(3, 0) tag=512:valid=1:dirty=0:age=0
+(34, 0) tag=65540:valid=1:dirty=0:age=0
+(38, 0) tag=522:valid=1:dirty=0:age=0
+(53, 0) tag=524:valid=1:dirty=0:age=0
+(54, 0) tag=524:valid=1:dirty=0:age=0
+(62, 0) tag=524279:valid=1:dirty=0:age=0
+(63, 0) tag=524279:valid=1:dirty=0:age=0
+(0, 1) tag=522:valid=1:dirty=0:age=0
 ======================================================================
 [IF CYCLE: 839] RTYPE: (Seq:       34)(Addr: 0)(PC: 2140600)
 IL1Cache->access(MemRead, addr: 2140600, latency: 2)
@@ -948,15 +948,15 @@ Printing all cache contents ...
 (54, 0) tag=262:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
-(3, 3) tag=512:valid=1:dirty=0:age=0
-(34, 2) tag=65540:valid=1:dirty=0:age=0
-(38, 2) tag=522:valid=1:dirty=0:age=0
-(53, 1) tag=524:valid=1:dirty=0:age=0
-(54, 2) tag=524:valid=1:dirty=0:age=0
-(62, 2) tag=524279:valid=1:dirty=0:age=0
-(63, 3) tag=524279:valid=1:dirty=0:age=0
-(64, 0) tag=522:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
+(3, 0) tag=512:valid=1:dirty=0:age=0
+(34, 0) tag=65540:valid=1:dirty=0:age=0
+(38, 0) tag=522:valid=1:dirty=0:age=0
+(53, 0) tag=524:valid=1:dirty=0:age=0
+(54, 0) tag=524:valid=1:dirty=0:age=0
+(62, 0) tag=524279:valid=1:dirty=0:age=0
+(63, 0) tag=524279:valid=1:dirty=0:age=0
+(0, 1) tag=522:valid=1:dirty=0:age=0
 ======================================================================
 [IF CYCLE: 841] JTYPE: (Seq:       35)(Addr: 2156792)(PC: 2140604)
 IL1Cache->access(MemRead, addr: 2140604, latency: 2)
@@ -977,15 +977,15 @@ Printing all cache contents ...
 (54, 0) tag=262:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
-(3, 3) tag=512:valid=1:dirty=0:age=0
-(34, 2) tag=65540:valid=1:dirty=0:age=0
-(38, 2) tag=522:valid=1:dirty=0:age=0
-(53, 1) tag=524:valid=1:dirty=0:age=0
-(54, 2) tag=524:valid=1:dirty=0:age=0
-(62, 2) tag=524279:valid=1:dirty=0:age=0
-(63, 3) tag=524279:valid=1:dirty=0:age=0
-(64, 0) tag=522:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
+(3, 0) tag=512:valid=1:dirty=0:age=0
+(34, 0) tag=65540:valid=1:dirty=0:age=0
+(38, 0) tag=522:valid=1:dirty=0:age=0
+(53, 0) tag=524:valid=1:dirty=0:age=0
+(54, 0) tag=524:valid=1:dirty=0:age=0
+(62, 0) tag=524279:valid=1:dirty=0:age=0
+(63, 0) tag=524279:valid=1:dirty=0:age=0
+(0, 1) tag=522:valid=1:dirty=0:age=0
 ======================================================================
 [IF CYCLE: 843] ITYPE: (Seq:       36)(Addr: 4294967280)(PC: 2156792)
 IL1Cache->access(MemRead, addr: 2156792, latency: 2)
@@ -1009,16 +1009,16 @@ Printing all cache contents ...
 (54, 0) tag=262:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
-(3, 3) tag=512:valid=1:dirty=0:age=0
-(34, 2) tag=65540:valid=1:dirty=0:age=0
-(35, 3) tag=526:valid=1:dirty=0:age=0
-(38, 2) tag=522:valid=1:dirty=0:age=0
-(53, 1) tag=524:valid=1:dirty=0:age=0
-(54, 2) tag=524:valid=1:dirty=0:age=0
-(62, 2) tag=524279:valid=1:dirty=0:age=0
-(63, 3) tag=524279:valid=1:dirty=0:age=0
-(64, 0) tag=522:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
+(3, 0) tag=512:valid=1:dirty=0:age=0
+(34, 0) tag=65540:valid=1:dirty=0:age=0
+(35, 0) tag=526:valid=1:dirty=0:age=0
+(38, 0) tag=522:valid=1:dirty=0:age=0
+(53, 0) tag=524:valid=1:dirty=0:age=0
+(54, 0) tag=524:valid=1:dirty=0:age=0
+(62, 0) tag=524279:valid=1:dirty=0:age=0
+(63, 0) tag=524279:valid=1:dirty=0:age=0
+(0, 1) tag=522:valid=1:dirty=0:age=0
 ======================================================================
 [IF CYCLE: 955] ITYPE: (Seq:       37)(Addr: 255)(PC: 2156796)
 IL1Cache->access(MemRead, addr: 2156796, latency: 2)
@@ -1040,16 +1040,16 @@ Printing all cache contents ...
 (54, 0) tag=262:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
-(3, 3) tag=512:valid=1:dirty=0:age=0
-(34, 2) tag=65540:valid=1:dirty=0:age=0
-(35, 3) tag=526:valid=1:dirty=0:age=0
-(38, 2) tag=522:valid=1:dirty=0:age=0
-(53, 1) tag=524:valid=1:dirty=0:age=0
-(54, 2) tag=524:valid=1:dirty=0:age=0
-(62, 2) tag=524279:valid=1:dirty=0:age=0
-(63, 3) tag=524279:valid=1:dirty=0:age=0
-(64, 0) tag=522:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
+(3, 0) tag=512:valid=1:dirty=0:age=0
+(34, 0) tag=65540:valid=1:dirty=0:age=0
+(35, 0) tag=526:valid=1:dirty=0:age=0
+(38, 0) tag=522:valid=1:dirty=0:age=0
+(53, 0) tag=524:valid=1:dirty=0:age=0
+(54, 0) tag=524:valid=1:dirty=0:age=0
+(62, 0) tag=524279:valid=1:dirty=0:age=0
+(63, 0) tag=524279:valid=1:dirty=0:age=0
+(0, 1) tag=522:valid=1:dirty=0:age=0
 ======================================================================
 [IF CYCLE: 957] ITYPE: (Seq:       38)(Addr: 3)(PC: 2156800)
 IL1Cache->access(MemRead, addr: 2156800, latency: 2)
@@ -1074,17 +1074,17 @@ Printing all cache contents ...
 (54, 0) tag=262:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
-(3, 3) tag=512:valid=1:dirty=0:age=0
-(34, 2) tag=65540:valid=1:dirty=0:age=0
-(35, 3) tag=526:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
+(3, 0) tag=512:valid=1:dirty=0:age=0
+(34, 0) tag=65540:valid=1:dirty=0:age=0
+(35, 0) tag=526:valid=1:dirty=0:age=0
 (36, 0) tag=526:valid=1:dirty=0:age=0
-(38, 2) tag=522:valid=1:dirty=0:age=0
-(53, 1) tag=524:valid=1:dirty=0:age=0
-(54, 2) tag=524:valid=1:dirty=0:age=0
-(62, 2) tag=524279:valid=1:dirty=0:age=0
-(63, 3) tag=524279:valid=1:dirty=0:age=0
-(64, 0) tag=522:valid=1:dirty=0:age=0
+(38, 0) tag=522:valid=1:dirty=0:age=0
+(53, 0) tag=524:valid=1:dirty=0:age=0
+(54, 0) tag=524:valid=1:dirty=0:age=0
+(62, 0) tag=524279:valid=1:dirty=0:age=0
+(63, 0) tag=524279:valid=1:dirty=0:age=0
+(0, 1) tag=522:valid=1:dirty=0:age=0
 ======================================================================
 [IF CYCLE: 1069] BRANCH: (Seq:       39)(Addr: 2156832)(PC: 2156804)
 IL1Cache->access(MemRead, addr: 2156804, latency: 2)
@@ -1107,17 +1107,17 @@ Printing all cache contents ...
 (54, 0) tag=262:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
-(3, 3) tag=512:valid=1:dirty=0:age=0
-(34, 2) tag=65540:valid=1:dirty=0:age=0
-(35, 3) tag=526:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
+(3, 0) tag=512:valid=1:dirty=0:age=0
+(34, 0) tag=65540:valid=1:dirty=0:age=0
+(35, 0) tag=526:valid=1:dirty=0:age=0
 (36, 0) tag=526:valid=1:dirty=0:age=0
-(38, 2) tag=522:valid=1:dirty=0:age=0
-(53, 1) tag=524:valid=1:dirty=0:age=0
-(54, 2) tag=524:valid=1:dirty=0:age=0
-(62, 2) tag=524279:valid=1:dirty=0:age=0
-(63, 3) tag=524279:valid=1:dirty=0:age=0
-(64, 0) tag=522:valid=1:dirty=0:age=0
+(38, 0) tag=522:valid=1:dirty=0:age=0
+(53, 0) tag=524:valid=1:dirty=0:age=0
+(54, 0) tag=524:valid=1:dirty=0:age=0
+(62, 0) tag=524279:valid=1:dirty=0:age=0
+(63, 0) tag=524279:valid=1:dirty=0:age=0
+(0, 1) tag=522:valid=1:dirty=0:age=0
 ======================================================================
 [IF CYCLE: 1071] ITYPE: (Seq:       40)(Addr: 32510)(PC: 2156832)
 IL1Cache->access(MemRead, addr: 2156832, latency: 2)
@@ -1140,17 +1140,17 @@ Printing all cache contents ...
 (54, 0) tag=262:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
-(3, 3) tag=512:valid=1:dirty=0:age=0
-(34, 2) tag=65540:valid=1:dirty=0:age=0
-(35, 3) tag=526:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
+(3, 0) tag=512:valid=1:dirty=0:age=0
+(34, 0) tag=65540:valid=1:dirty=0:age=0
+(35, 0) tag=526:valid=1:dirty=0:age=0
 (36, 0) tag=526:valid=1:dirty=0:age=0
-(38, 2) tag=522:valid=1:dirty=0:age=0
-(53, 1) tag=524:valid=1:dirty=0:age=0
-(54, 2) tag=524:valid=1:dirty=0:age=0
-(62, 2) tag=524279:valid=1:dirty=0:age=0
-(63, 3) tag=524279:valid=1:dirty=0:age=0
-(64, 0) tag=522:valid=1:dirty=0:age=0
+(38, 0) tag=522:valid=1:dirty=0:age=0
+(53, 0) tag=524:valid=1:dirty=0:age=0
+(54, 0) tag=524:valid=1:dirty=0:age=0
+(62, 0) tag=524279:valid=1:dirty=0:age=0
+(63, 0) tag=524279:valid=1:dirty=0:age=0
+(0, 1) tag=522:valid=1:dirty=0:age=0
 ======================================================================
 [IF CYCLE: 1073] ITYPE: (Seq:       41)(Addr: 65279)(PC: 2156836)
 IL1Cache->access(MemRead, addr: 2156836, latency: 2)
@@ -1173,17 +1173,17 @@ Printing all cache contents ...
 (54, 0) tag=262:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
-(3, 3) tag=512:valid=1:dirty=0:age=0
-(34, 2) tag=65540:valid=1:dirty=0:age=0
-(35, 3) tag=526:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
+(3, 0) tag=512:valid=1:dirty=0:age=0
+(34, 0) tag=65540:valid=1:dirty=0:age=0
+(35, 0) tag=526:valid=1:dirty=0:age=0
 (36, 0) tag=526:valid=1:dirty=0:age=0
-(38, 2) tag=522:valid=1:dirty=0:age=0
-(53, 1) tag=524:valid=1:dirty=0:age=0
-(54, 2) tag=524:valid=1:dirty=0:age=0
-(62, 2) tag=524279:valid=1:dirty=0:age=0
-(63, 3) tag=524279:valid=1:dirty=0:age=0
-(64, 0) tag=522:valid=1:dirty=0:age=0
+(38, 0) tag=522:valid=1:dirty=0:age=0
+(53, 0) tag=524:valid=1:dirty=0:age=0
+(54, 0) tag=524:valid=1:dirty=0:age=0
+(62, 0) tag=524279:valid=1:dirty=0:age=0
+(63, 0) tag=524279:valid=1:dirty=0:age=0
+(0, 1) tag=522:valid=1:dirty=0:age=0
 ======================================================================
 [IF CYCLE: 1075] ITYPE: (Seq:       42)(Addr: 8)(PC: 2156840)
 IL1Cache->access(MemRead, addr: 2156840, latency: 2)
@@ -1206,17 +1206,17 @@ Printing all cache contents ...
 (54, 0) tag=262:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
-(3, 3) tag=512:valid=1:dirty=0:age=0
-(34, 2) tag=65540:valid=1:dirty=0:age=0
-(35, 3) tag=526:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
+(3, 0) tag=512:valid=1:dirty=0:age=0
+(34, 0) tag=65540:valid=1:dirty=0:age=0
+(35, 0) tag=526:valid=1:dirty=0:age=0
 (36, 0) tag=526:valid=1:dirty=0:age=0
-(38, 2) tag=522:valid=1:dirty=0:age=0
-(53, 1) tag=524:valid=1:dirty=0:age=0
-(54, 2) tag=524:valid=1:dirty=0:age=0
-(62, 2) tag=524279:valid=1:dirty=0:age=0
-(63, 3) tag=524279:valid=1:dirty=0:age=0
-(64, 0) tag=522:valid=1:dirty=0:age=0
+(38, 0) tag=522:valid=1:dirty=0:age=0
+(53, 0) tag=524:valid=1:dirty=0:age=0
+(54, 0) tag=524:valid=1:dirty=0:age=0
+(62, 0) tag=524279:valid=1:dirty=0:age=0
+(63, 0) tag=524279:valid=1:dirty=0:age=0
+(0, 1) tag=522:valid=1:dirty=0:age=0
 ======================================================================
 [IF CYCLE: 1077] RTYPE: (Seq:       43)(Addr: 0)(PC: 2156844)
 IL1Cache->access(MemRead, addr: 2156844, latency: 2)
@@ -1239,17 +1239,17 @@ Printing all cache contents ...
 (54, 0) tag=262:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
-(3, 3) tag=512:valid=1:dirty=0:age=0
-(34, 2) tag=65540:valid=1:dirty=0:age=0
-(35, 3) tag=526:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
+(3, 0) tag=512:valid=1:dirty=0:age=0
+(34, 0) tag=65540:valid=1:dirty=0:age=0
+(35, 0) tag=526:valid=1:dirty=0:age=0
 (36, 0) tag=526:valid=1:dirty=0:age=0
-(38, 2) tag=522:valid=1:dirty=0:age=0
-(53, 1) tag=524:valid=1:dirty=0:age=0
-(54, 2) tag=524:valid=1:dirty=0:age=0
-(62, 2) tag=524279:valid=1:dirty=0:age=0
-(63, 3) tag=524279:valid=1:dirty=0:age=0
-(64, 0) tag=522:valid=1:dirty=0:age=0
+(38, 0) tag=522:valid=1:dirty=0:age=0
+(53, 0) tag=524:valid=1:dirty=0:age=0
+(54, 0) tag=524:valid=1:dirty=0:age=0
+(62, 0) tag=524279:valid=1:dirty=0:age=0
+(63, 0) tag=524279:valid=1:dirty=0:age=0
+(0, 1) tag=522:valid=1:dirty=0:age=0
 ======================================================================
 [IF CYCLE: 1079] ITYPE: (Seq:       44)(Addr: 16)(PC: 2156848)
 IL1Cache->access(MemRead, addr: 2156848, latency: 2)
@@ -1272,17 +1272,17 @@ Printing all cache contents ...
 (54, 0) tag=262:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
-(3, 3) tag=512:valid=1:dirty=0:age=0
-(34, 2) tag=65540:valid=1:dirty=0:age=0
-(35, 3) tag=526:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
+(3, 0) tag=512:valid=1:dirty=0:age=0
+(34, 0) tag=65540:valid=1:dirty=0:age=0
+(35, 0) tag=526:valid=1:dirty=0:age=0
 (36, 0) tag=526:valid=1:dirty=0:age=0
-(38, 2) tag=522:valid=1:dirty=0:age=0
-(53, 1) tag=524:valid=1:dirty=0:age=0
-(54, 2) tag=524:valid=1:dirty=0:age=0
-(62, 2) tag=524279:valid=1:dirty=0:age=0
-(63, 3) tag=524279:valid=1:dirty=0:age=0
-(64, 0) tag=522:valid=1:dirty=0:age=0
+(38, 0) tag=522:valid=1:dirty=0:age=0
+(53, 0) tag=524:valid=1:dirty=0:age=0
+(54, 0) tag=524:valid=1:dirty=0:age=0
+(62, 0) tag=524279:valid=1:dirty=0:age=0
+(63, 0) tag=524279:valid=1:dirty=0:age=0
+(0, 1) tag=522:valid=1:dirty=0:age=0
 ======================================================================
 [IF CYCLE: 1081] RTYPE: (Seq:       45)(Addr: 0)(PC: 2156852)
 IL1Cache->access(MemRead, addr: 2156852, latency: 2)
@@ -1305,17 +1305,17 @@ Printing all cache contents ...
 (54, 0) tag=262:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
-(3, 3) tag=512:valid=1:dirty=0:age=0
-(34, 2) tag=65540:valid=1:dirty=0:age=0
-(35, 3) tag=526:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
+(3, 0) tag=512:valid=1:dirty=0:age=0
+(34, 0) tag=65540:valid=1:dirty=0:age=0
+(35, 0) tag=526:valid=1:dirty=0:age=0
 (36, 0) tag=526:valid=1:dirty=0:age=0
-(38, 2) tag=522:valid=1:dirty=0:age=0
-(53, 1) tag=524:valid=1:dirty=0:age=0
-(54, 2) tag=524:valid=1:dirty=0:age=0
-(62, 2) tag=524279:valid=1:dirty=0:age=0
-(63, 3) tag=524279:valid=1:dirty=0:age=0
-(64, 0) tag=522:valid=1:dirty=0:age=0
+(38, 0) tag=522:valid=1:dirty=0:age=0
+(53, 0) tag=524:valid=1:dirty=0:age=0
+(54, 0) tag=524:valid=1:dirty=0:age=0
+(62, 0) tag=524279:valid=1:dirty=0:age=0
+(63, 0) tag=524279:valid=1:dirty=0:age=0
+(0, 1) tag=522:valid=1:dirty=0:age=0
 ======================================================================
 [IF CYCLE: 1083] LOAD: (Seq:       46)(Addr: 4294901972)(PC: 2156856)
 IL1Cache->access(MemRead, addr: 2156856, latency: 2)
@@ -1338,17 +1338,17 @@ Printing all cache contents ...
 (54, 0) tag=262:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
-(3, 3) tag=512:valid=1:dirty=0:age=0
-(34, 2) tag=65540:valid=1:dirty=0:age=0
-(35, 3) tag=526:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
+(3, 0) tag=512:valid=1:dirty=0:age=0
+(34, 0) tag=65540:valid=1:dirty=0:age=0
+(35, 0) tag=526:valid=1:dirty=0:age=0
 (36, 0) tag=526:valid=1:dirty=0:age=0
-(38, 2) tag=522:valid=1:dirty=0:age=0
-(53, 1) tag=524:valid=1:dirty=0:age=0
-(54, 2) tag=524:valid=1:dirty=0:age=0
-(62, 2) tag=524279:valid=1:dirty=0:age=0
-(63, 3) tag=524279:valid=1:dirty=0:age=0
-(64, 0) tag=522:valid=1:dirty=0:age=0
+(38, 0) tag=522:valid=1:dirty=0:age=0
+(53, 0) tag=524:valid=1:dirty=0:age=0
+(54, 0) tag=524:valid=1:dirty=0:age=0
+(62, 0) tag=524279:valid=1:dirty=0:age=0
+(63, 0) tag=524279:valid=1:dirty=0:age=0
+(0, 1) tag=522:valid=1:dirty=0:age=0
 ======================================================================
 [IF CYCLE: 1085] RTYPE: (Seq:       47)(Addr: 0)(PC: 2156860)
 IL1Cache->access(MemRead, addr: 2156860, latency: 2)
@@ -1371,17 +1371,17 @@ Printing all cache contents ...
 (54, 0) tag=262:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
-(3, 3) tag=512:valid=1:dirty=0:age=0
-(34, 2) tag=65540:valid=1:dirty=0:age=0
-(35, 3) tag=526:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
+(3, 0) tag=512:valid=1:dirty=0:age=0
+(34, 0) tag=65540:valid=1:dirty=0:age=0
+(35, 0) tag=526:valid=1:dirty=0:age=0
 (36, 0) tag=526:valid=1:dirty=0:age=0
-(38, 2) tag=522:valid=1:dirty=0:age=0
-(53, 1) tag=524:valid=1:dirty=0:age=0
-(54, 2) tag=524:valid=1:dirty=0:age=0
-(62, 2) tag=524279:valid=1:dirty=0:age=0
-(63, 3) tag=524279:valid=1:dirty=0:age=0
-(64, 0) tag=522:valid=1:dirty=0:age=0
+(38, 0) tag=522:valid=1:dirty=0:age=0
+(53, 0) tag=524:valid=1:dirty=0:age=0
+(54, 0) tag=524:valid=1:dirty=0:age=0
+(62, 0) tag=524279:valid=1:dirty=0:age=0
+(63, 0) tag=524279:valid=1:dirty=0:age=0
+(0, 1) tag=522:valid=1:dirty=0:age=0
 ======================================================================
 [IF CYCLE: 1087] ITYPE: (Seq:       48)(Addr: 4)(PC: 2156864)
 IL1Cache->access(MemRead, addr: 2156864, latency: 2)
@@ -1407,18 +1407,18 @@ Printing all cache contents ...
 (54, 0) tag=262:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
-(3, 3) tag=512:valid=1:dirty=0:age=0
-(34, 2) tag=65540:valid=1:dirty=0:age=0
-(35, 3) tag=526:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
+(3, 0) tag=512:valid=1:dirty=0:age=0
+(34, 0) tag=65540:valid=1:dirty=0:age=0
+(35, 0) tag=526:valid=1:dirty=0:age=0
 (36, 0) tag=526:valid=1:dirty=0:age=0
-(37, 1) tag=526:valid=1:dirty=0:age=0
-(38, 2) tag=522:valid=1:dirty=0:age=0
-(53, 1) tag=524:valid=1:dirty=0:age=0
-(54, 2) tag=524:valid=1:dirty=0:age=0
-(62, 2) tag=524279:valid=1:dirty=0:age=0
-(63, 3) tag=524279:valid=1:dirty=0:age=0
-(64, 0) tag=522:valid=1:dirty=0:age=0
+(37, 0) tag=526:valid=1:dirty=0:age=0
+(38, 0) tag=522:valid=1:dirty=0:age=0
+(53, 0) tag=524:valid=1:dirty=0:age=0
+(54, 0) tag=524:valid=1:dirty=0:age=0
+(62, 0) tag=524279:valid=1:dirty=0:age=0
+(63, 0) tag=524279:valid=1:dirty=0:age=0
+(0, 1) tag=522:valid=1:dirty=0:age=0
 ======================================================================
 [MEM CYCLE: 1199] LOAD: (Seq:       46)(Addr: 4294901972)(PC: 2156856)
 DL1Cache->access(MemRead, addr: 4294901972, latency: 2)
@@ -1445,19 +1445,19 @@ Printing all cache contents ...
 (54, 0) tag=262:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
-(3, 3) tag=512:valid=1:dirty=0:age=0
-(34, 2) tag=65540:valid=1:dirty=0:age=0
-(35, 3) tag=526:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
+(3, 0) tag=512:valid=1:dirty=0:age=0
+(34, 0) tag=65540:valid=1:dirty=0:age=0
+(35, 0) tag=526:valid=1:dirty=0:age=0
 (36, 0) tag=526:valid=1:dirty=0:age=0
-(37, 1) tag=526:valid=1:dirty=0:age=0
-(38, 2) tag=522:valid=1:dirty=0:age=0
-(53, 1) tag=524:valid=1:dirty=0:age=0
-(54, 2) tag=524:valid=1:dirty=0:age=0
-(62, 2) tag=524279:valid=1:dirty=0:age=0
-(63, 3) tag=524279:valid=1:dirty=0:age=0
-(64, 0) tag=522:valid=1:dirty=0:age=0
-(67, 3) tag=1048560:valid=1:dirty=0:age=0
+(37, 0) tag=526:valid=1:dirty=0:age=0
+(38, 0) tag=522:valid=1:dirty=0:age=0
+(53, 0) tag=524:valid=1:dirty=0:age=0
+(54, 0) tag=524:valid=1:dirty=0:age=0
+(62, 0) tag=524279:valid=1:dirty=0:age=0
+(63, 0) tag=524279:valid=1:dirty=0:age=0
+(0, 1) tag=522:valid=1:dirty=0:age=0
+(3, 1) tag=1048560:valid=1:dirty=0:age=0
 ======================================================================
 [IF CYCLE: 1310] RTYPE: (Seq:       49)(Addr: 0)(PC: 2156868)
 IL1Cache->access(MemRead, addr: 2156868, latency: 2)
@@ -1482,19 +1482,19 @@ Printing all cache contents ...
 (54, 0) tag=262:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
-(3, 3) tag=512:valid=1:dirty=0:age=0
-(34, 2) tag=65540:valid=1:dirty=0:age=0
-(35, 3) tag=526:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
+(3, 0) tag=512:valid=1:dirty=0:age=0
+(34, 0) tag=65540:valid=1:dirty=0:age=0
+(35, 0) tag=526:valid=1:dirty=0:age=0
 (36, 0) tag=526:valid=1:dirty=0:age=0
-(37, 1) tag=526:valid=1:dirty=0:age=0
-(38, 2) tag=522:valid=1:dirty=0:age=0
-(53, 1) tag=524:valid=1:dirty=0:age=0
-(54, 2) tag=524:valid=1:dirty=0:age=0
-(62, 2) tag=524279:valid=1:dirty=0:age=0
-(63, 3) tag=524279:valid=1:dirty=0:age=0
-(64, 0) tag=522:valid=1:dirty=0:age=0
-(67, 3) tag=1048560:valid=1:dirty=0:age=0
+(37, 0) tag=526:valid=1:dirty=0:age=0
+(38, 0) tag=522:valid=1:dirty=0:age=0
+(53, 0) tag=524:valid=1:dirty=0:age=0
+(54, 0) tag=524:valid=1:dirty=0:age=0
+(62, 0) tag=524279:valid=1:dirty=0:age=0
+(63, 0) tag=524279:valid=1:dirty=0:age=0
+(0, 1) tag=522:valid=1:dirty=0:age=0
+(3, 1) tag=1048560:valid=1:dirty=0:age=0
 ======================================================================
 [IF CYCLE: 1312] RTYPE: (Seq:       50)(Addr: 0)(PC: 2156872)
 IL1Cache->access(MemRead, addr: 2156872, latency: 2)
@@ -1519,19 +1519,19 @@ Printing all cache contents ...
 (54, 0) tag=262:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
-(3, 3) tag=512:valid=1:dirty=0:age=0
-(34, 2) tag=65540:valid=1:dirty=0:age=0
-(35, 3) tag=526:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
+(3, 0) tag=512:valid=1:dirty=0:age=0
+(34, 0) tag=65540:valid=1:dirty=0:age=0
+(35, 0) tag=526:valid=1:dirty=0:age=0
 (36, 0) tag=526:valid=1:dirty=0:age=0
-(37, 1) tag=526:valid=1:dirty=0:age=0
-(38, 2) tag=522:valid=1:dirty=0:age=0
-(53, 1) tag=524:valid=1:dirty=0:age=0
-(54, 2) tag=524:valid=1:dirty=0:age=0
-(62, 2) tag=524279:valid=1:dirty=0:age=0
-(63, 3) tag=524279:valid=1:dirty=0:age=0
-(64, 0) tag=522:valid=1:dirty=0:age=0
-(67, 3) tag=1048560:valid=1:dirty=0:age=0
+(37, 0) tag=526:valid=1:dirty=0:age=0
+(38, 0) tag=522:valid=1:dirty=0:age=0
+(53, 0) tag=524:valid=1:dirty=0:age=0
+(54, 0) tag=524:valid=1:dirty=0:age=0
+(62, 0) tag=524279:valid=1:dirty=0:age=0
+(63, 0) tag=524279:valid=1:dirty=0:age=0
+(0, 1) tag=522:valid=1:dirty=0:age=0
+(3, 1) tag=1048560:valid=1:dirty=0:age=0
 ======================================================================
 [IF CYCLE: 1314] RTYPE: (Seq:       51)(Addr: 0)(PC: 2156876)
 IL1Cache->access(MemRead, addr: 2156876, latency: 2)
@@ -1556,19 +1556,19 @@ Printing all cache contents ...
 (54, 0) tag=262:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
-(3, 3) tag=512:valid=1:dirty=0:age=0
-(34, 2) tag=65540:valid=1:dirty=0:age=0
-(35, 3) tag=526:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
+(3, 0) tag=512:valid=1:dirty=0:age=0
+(34, 0) tag=65540:valid=1:dirty=0:age=0
+(35, 0) tag=526:valid=1:dirty=0:age=0
 (36, 0) tag=526:valid=1:dirty=0:age=0
-(37, 1) tag=526:valid=1:dirty=0:age=0
-(38, 2) tag=522:valid=1:dirty=0:age=0
-(53, 1) tag=524:valid=1:dirty=0:age=0
-(54, 2) tag=524:valid=1:dirty=0:age=0
-(62, 2) tag=524279:valid=1:dirty=0:age=0
-(63, 3) tag=524279:valid=1:dirty=0:age=0
-(64, 0) tag=522:valid=1:dirty=0:age=0
-(67, 3) tag=1048560:valid=1:dirty=0:age=0
+(37, 0) tag=526:valid=1:dirty=0:age=0
+(38, 0) tag=522:valid=1:dirty=0:age=0
+(53, 0) tag=524:valid=1:dirty=0:age=0
+(54, 0) tag=524:valid=1:dirty=0:age=0
+(62, 0) tag=524279:valid=1:dirty=0:age=0
+(63, 0) tag=524279:valid=1:dirty=0:age=0
+(0, 1) tag=522:valid=1:dirty=0:age=0
+(3, 1) tag=1048560:valid=1:dirty=0:age=0
 ======================================================================
 [IF CYCLE: 1316] RTYPE: (Seq:       52)(Addr: 0)(PC: 2156880)
 IL1Cache->access(MemRead, addr: 2156880, latency: 2)
@@ -1593,19 +1593,19 @@ Printing all cache contents ...
 (54, 0) tag=262:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
-(3, 3) tag=512:valid=1:dirty=0:age=0
-(34, 2) tag=65540:valid=1:dirty=0:age=0
-(35, 3) tag=526:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
+(3, 0) tag=512:valid=1:dirty=0:age=0
+(34, 0) tag=65540:valid=1:dirty=0:age=0
+(35, 0) tag=526:valid=1:dirty=0:age=0
 (36, 0) tag=526:valid=1:dirty=0:age=0
-(37, 1) tag=526:valid=1:dirty=0:age=0
-(38, 2) tag=522:valid=1:dirty=0:age=0
-(53, 1) tag=524:valid=1:dirty=0:age=0
-(54, 2) tag=524:valid=1:dirty=0:age=0
-(62, 2) tag=524279:valid=1:dirty=0:age=0
-(63, 3) tag=524279:valid=1:dirty=0:age=0
-(64, 0) tag=522:valid=1:dirty=0:age=0
-(67, 3) tag=1048560:valid=1:dirty=0:age=0
+(37, 0) tag=526:valid=1:dirty=0:age=0
+(38, 0) tag=522:valid=1:dirty=0:age=0
+(53, 0) tag=524:valid=1:dirty=0:age=0
+(54, 0) tag=524:valid=1:dirty=0:age=0
+(62, 0) tag=524279:valid=1:dirty=0:age=0
+(63, 0) tag=524279:valid=1:dirty=0:age=0
+(0, 1) tag=522:valid=1:dirty=0:age=0
+(3, 1) tag=1048560:valid=1:dirty=0:age=0
 ======================================================================
 [IF CYCLE: 1318] BRANCH: (Seq:       53)(Addr: 2156912)(PC: 2156884)
 IL1Cache->access(MemRead, addr: 2156884, latency: 2)
@@ -1630,19 +1630,19 @@ Printing all cache contents ...
 (54, 0) tag=262:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
-(3, 3) tag=512:valid=1:dirty=0:age=0
-(34, 2) tag=65540:valid=1:dirty=0:age=0
-(35, 3) tag=526:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
+(3, 0) tag=512:valid=1:dirty=0:age=0
+(34, 0) tag=65540:valid=1:dirty=0:age=0
+(35, 0) tag=526:valid=1:dirty=0:age=0
 (36, 0) tag=526:valid=1:dirty=0:age=0
-(37, 1) tag=526:valid=1:dirty=0:age=0
-(38, 2) tag=522:valid=1:dirty=0:age=0
-(53, 1) tag=524:valid=1:dirty=0:age=0
-(54, 2) tag=524:valid=1:dirty=0:age=0
-(62, 2) tag=524279:valid=1:dirty=0:age=0
-(63, 3) tag=524279:valid=1:dirty=0:age=0
-(64, 0) tag=522:valid=1:dirty=0:age=0
-(67, 3) tag=1048560:valid=1:dirty=0:age=0
+(37, 0) tag=526:valid=1:dirty=0:age=0
+(38, 0) tag=522:valid=1:dirty=0:age=0
+(53, 0) tag=524:valid=1:dirty=0:age=0
+(54, 0) tag=524:valid=1:dirty=0:age=0
+(62, 0) tag=524279:valid=1:dirty=0:age=0
+(63, 0) tag=524279:valid=1:dirty=0:age=0
+(0, 1) tag=522:valid=1:dirty=0:age=0
+(3, 1) tag=1048560:valid=1:dirty=0:age=0
 ======================================================================
 [IF CYCLE: 1320] RTYPE: (Seq:       54)(Addr: 0)(PC: 2156888)
 IL1Cache->access(MemRead, addr: 2156888, latency: 2)
@@ -1667,19 +1667,19 @@ Printing all cache contents ...
 (54, 0) tag=262:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
-(3, 3) tag=512:valid=1:dirty=0:age=0
-(34, 2) tag=65540:valid=1:dirty=0:age=0
-(35, 3) tag=526:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
+(3, 0) tag=512:valid=1:dirty=0:age=0
+(34, 0) tag=65540:valid=1:dirty=0:age=0
+(35, 0) tag=526:valid=1:dirty=0:age=0
 (36, 0) tag=526:valid=1:dirty=0:age=0
-(37, 1) tag=526:valid=1:dirty=0:age=0
-(38, 2) tag=522:valid=1:dirty=0:age=0
-(53, 1) tag=524:valid=1:dirty=0:age=0
-(54, 2) tag=524:valid=1:dirty=0:age=0
-(62, 2) tag=524279:valid=1:dirty=0:age=0
-(63, 3) tag=524279:valid=1:dirty=0:age=0
-(64, 0) tag=522:valid=1:dirty=0:age=0
-(67, 3) tag=1048560:valid=1:dirty=0:age=0
+(37, 0) tag=526:valid=1:dirty=0:age=0
+(38, 0) tag=522:valid=1:dirty=0:age=0
+(53, 0) tag=524:valid=1:dirty=0:age=0
+(54, 0) tag=524:valid=1:dirty=0:age=0
+(62, 0) tag=524279:valid=1:dirty=0:age=0
+(63, 0) tag=524279:valid=1:dirty=0:age=0
+(0, 1) tag=522:valid=1:dirty=0:age=0
+(3, 1) tag=1048560:valid=1:dirty=0:age=0
 ======================================================================
 [IF CYCLE: 1322] RTYPE: (Seq:       55)(Addr: 0)(PC: 2156892)
 IL1Cache->access(MemRead, addr: 2156892, latency: 2)
@@ -1704,19 +1704,19 @@ Printing all cache contents ...
 (54, 0) tag=262:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
-(3, 3) tag=512:valid=1:dirty=0:age=0
-(34, 2) tag=65540:valid=1:dirty=0:age=0
-(35, 3) tag=526:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
+(3, 0) tag=512:valid=1:dirty=0:age=0
+(34, 0) tag=65540:valid=1:dirty=0:age=0
+(35, 0) tag=526:valid=1:dirty=0:age=0
 (36, 0) tag=526:valid=1:dirty=0:age=0
-(37, 1) tag=526:valid=1:dirty=0:age=0
-(38, 2) tag=522:valid=1:dirty=0:age=0
-(53, 1) tag=524:valid=1:dirty=0:age=0
-(54, 2) tag=524:valid=1:dirty=0:age=0
-(62, 2) tag=524279:valid=1:dirty=0:age=0
-(63, 3) tag=524279:valid=1:dirty=0:age=0
-(64, 0) tag=522:valid=1:dirty=0:age=0
-(67, 3) tag=1048560:valid=1:dirty=0:age=0
+(37, 0) tag=526:valid=1:dirty=0:age=0
+(38, 0) tag=522:valid=1:dirty=0:age=0
+(53, 0) tag=524:valid=1:dirty=0:age=0
+(54, 0) tag=524:valid=1:dirty=0:age=0
+(62, 0) tag=524279:valid=1:dirty=0:age=0
+(63, 0) tag=524279:valid=1:dirty=0:age=0
+(0, 1) tag=522:valid=1:dirty=0:age=0
+(3, 1) tag=1048560:valid=1:dirty=0:age=0
 ======================================================================
 [IF CYCLE: 1324] RTYPE: (Seq:       56)(Addr: 0)(PC: 2156896)
 IL1Cache->access(MemRead, addr: 2156896, latency: 2)
@@ -1741,19 +1741,19 @@ Printing all cache contents ...
 (54, 0) tag=262:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
-(3, 3) tag=512:valid=1:dirty=0:age=0
-(34, 2) tag=65540:valid=1:dirty=0:age=0
-(35, 3) tag=526:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
+(3, 0) tag=512:valid=1:dirty=0:age=0
+(34, 0) tag=65540:valid=1:dirty=0:age=0
+(35, 0) tag=526:valid=1:dirty=0:age=0
 (36, 0) tag=526:valid=1:dirty=0:age=0
-(37, 1) tag=526:valid=1:dirty=0:age=0
-(38, 2) tag=522:valid=1:dirty=0:age=0
-(53, 1) tag=524:valid=1:dirty=0:age=0
-(54, 2) tag=524:valid=1:dirty=0:age=0
-(62, 2) tag=524279:valid=1:dirty=0:age=0
-(63, 3) tag=524279:valid=1:dirty=0:age=0
-(64, 0) tag=522:valid=1:dirty=0:age=0
-(67, 3) tag=1048560:valid=1:dirty=0:age=0
+(37, 0) tag=526:valid=1:dirty=0:age=0
+(38, 0) tag=522:valid=1:dirty=0:age=0
+(53, 0) tag=524:valid=1:dirty=0:age=0
+(54, 0) tag=524:valid=1:dirty=0:age=0
+(62, 0) tag=524279:valid=1:dirty=0:age=0
+(63, 0) tag=524279:valid=1:dirty=0:age=0
+(0, 1) tag=522:valid=1:dirty=0:age=0
+(3, 1) tag=1048560:valid=1:dirty=0:age=0
 ======================================================================
 [IF CYCLE: 1326] RTYPE: (Seq:       57)(Addr: 0)(PC: 2156900)
 IL1Cache->access(MemRead, addr: 2156900, latency: 2)
@@ -1778,19 +1778,19 @@ Printing all cache contents ...
 (54, 0) tag=262:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
-(3, 3) tag=512:valid=1:dirty=0:age=0
-(34, 2) tag=65540:valid=1:dirty=0:age=0
-(35, 3) tag=526:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
+(3, 0) tag=512:valid=1:dirty=0:age=0
+(34, 0) tag=65540:valid=1:dirty=0:age=0
+(35, 0) tag=526:valid=1:dirty=0:age=0
 (36, 0) tag=526:valid=1:dirty=0:age=0
-(37, 1) tag=526:valid=1:dirty=0:age=0
-(38, 2) tag=522:valid=1:dirty=0:age=0
-(53, 1) tag=524:valid=1:dirty=0:age=0
-(54, 2) tag=524:valid=1:dirty=0:age=0
-(62, 2) tag=524279:valid=1:dirty=0:age=0
-(63, 3) tag=524279:valid=1:dirty=0:age=0
-(64, 0) tag=522:valid=1:dirty=0:age=0
-(67, 3) tag=1048560:valid=1:dirty=0:age=0
+(37, 0) tag=526:valid=1:dirty=0:age=0
+(38, 0) tag=522:valid=1:dirty=0:age=0
+(53, 0) tag=524:valid=1:dirty=0:age=0
+(54, 0) tag=524:valid=1:dirty=0:age=0
+(62, 0) tag=524279:valid=1:dirty=0:age=0
+(63, 0) tag=524279:valid=1:dirty=0:age=0
+(0, 1) tag=522:valid=1:dirty=0:age=0
+(3, 1) tag=1048560:valid=1:dirty=0:age=0
 ======================================================================
 [IF CYCLE: 1328] RTYPE: (Seq:       58)(Addr: 0)(PC: 2156904)
 IL1Cache->access(MemRead, addr: 2156904, latency: 2)
@@ -1815,19 +1815,19 @@ Printing all cache contents ...
 (54, 0) tag=262:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
-(3, 3) tag=512:valid=1:dirty=0:age=0
-(34, 2) tag=65540:valid=1:dirty=0:age=0
-(35, 3) tag=526:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
+(3, 0) tag=512:valid=1:dirty=0:age=0
+(34, 0) tag=65540:valid=1:dirty=0:age=0
+(35, 0) tag=526:valid=1:dirty=0:age=0
 (36, 0) tag=526:valid=1:dirty=0:age=0
-(37, 1) tag=526:valid=1:dirty=0:age=0
-(38, 2) tag=522:valid=1:dirty=0:age=0
-(53, 1) tag=524:valid=1:dirty=0:age=0
-(54, 2) tag=524:valid=1:dirty=0:age=0
-(62, 2) tag=524279:valid=1:dirty=0:age=0
-(63, 3) tag=524279:valid=1:dirty=0:age=0
-(64, 0) tag=522:valid=1:dirty=0:age=0
-(67, 3) tag=1048560:valid=1:dirty=0:age=0
+(37, 0) tag=526:valid=1:dirty=0:age=0
+(38, 0) tag=522:valid=1:dirty=0:age=0
+(53, 0) tag=524:valid=1:dirty=0:age=0
+(54, 0) tag=524:valid=1:dirty=0:age=0
+(62, 0) tag=524279:valid=1:dirty=0:age=0
+(63, 0) tag=524279:valid=1:dirty=0:age=0
+(0, 1) tag=522:valid=1:dirty=0:age=0
+(3, 1) tag=1048560:valid=1:dirty=0:age=0
 ======================================================================
 [IF CYCLE: 1330] BRANCH: (Seq:       59)(Addr: 2156856)(PC: 2156908)
 IL1Cache->access(MemRead, addr: 2156908, latency: 2)
@@ -1852,19 +1852,19 @@ Printing all cache contents ...
 (54, 0) tag=262:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
-(3, 3) tag=512:valid=1:dirty=0:age=0
-(34, 2) tag=65540:valid=1:dirty=0:age=0
-(35, 3) tag=526:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
+(3, 0) tag=512:valid=1:dirty=0:age=0
+(34, 0) tag=65540:valid=1:dirty=0:age=0
+(35, 0) tag=526:valid=1:dirty=0:age=0
 (36, 0) tag=526:valid=1:dirty=0:age=0
-(37, 1) tag=526:valid=1:dirty=0:age=0
-(38, 2) tag=522:valid=1:dirty=0:age=0
-(53, 1) tag=524:valid=1:dirty=0:age=0
-(54, 2) tag=524:valid=1:dirty=0:age=0
-(62, 2) tag=524279:valid=1:dirty=0:age=0
-(63, 3) tag=524279:valid=1:dirty=0:age=0
-(64, 0) tag=522:valid=1:dirty=0:age=0
-(67, 3) tag=1048560:valid=1:dirty=0:age=0
+(37, 0) tag=526:valid=1:dirty=0:age=0
+(38, 0) tag=522:valid=1:dirty=0:age=0
+(53, 0) tag=524:valid=1:dirty=0:age=0
+(54, 0) tag=524:valid=1:dirty=0:age=0
+(62, 0) tag=524279:valid=1:dirty=0:age=0
+(63, 0) tag=524279:valid=1:dirty=0:age=0
+(0, 1) tag=522:valid=1:dirty=0:age=0
+(3, 1) tag=1048560:valid=1:dirty=0:age=0
 ======================================================================
 [IF CYCLE: 1332] LOAD: (Seq:       60)(Addr: 2147516612)(PC: 2156912)
 IL1Cache->access(MemRead, addr: 2156912, latency: 2)
@@ -1889,19 +1889,19 @@ Printing all cache contents ...
 (54, 0) tag=262:valid=1:dirty=0:age=0
 [L2Cache]
 (0, 0) tag=524280:valid=1:dirty=0:age=0
-(2, 2) tag=512:valid=1:dirty=0:age=0
-(3, 3) tag=512:valid=1:dirty=0:age=0
-(34, 2) tag=65540:valid=1:dirty=0:age=0
-(35, 3) tag=526:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
+(3, 0) tag=512:valid=1:dirty=0:age=0
+(34, 0) tag=65540:valid=1:dirty=0:age=0
+(35, 0) tag=526:valid=1:dirty=0:age=0
 (36, 0) tag=526:valid=1:dirty=0:age=0
-(37, 1) tag=526:valid=1:dirty=0:age=0
-(38, 2) tag=522:valid=1:dirty=0:age=0
-(53, 1) tag=524:valid=1:dirty=0:age=0
-(54, 2) tag=524:valid=1:dirty=0:age=0
-(62, 2) tag=524279:valid=1:dirty=0:age=0
-(63, 3) tag=524279:valid=1:dirty=0:age=0
-(64, 0) tag=522:valid=1:dirty=0:age=0
-(67, 3) tag=1048560:valid=1:dirty=0:age=0
+(37, 0) tag=526:valid=1:dirty=0:age=0
+(38, 0) tag=522:valid=1:dirty=0:age=0
+(53, 0) tag=524:valid=1:dirty=0:age=0
+(54, 0) tag=524:valid=1:dirty=0:age=0
+(62, 0) tag=524279:valid=1:dirty=0:age=0
+(63, 0) tag=524279:valid=1:dirty=0:age=0
+(0, 1) tag=522:valid=1:dirty=0:age=0
+(3, 1) tag=1048560:valid=1:dirty=0:age=0
 ======================================================================
 [IF CYCLE: 1334] ITYPE: (Seq:       61)(Addr: 4294967292)(PC: 2156916)
 IL1Cache->access(MemRead, addr: 2156916, latency: 2)
@@ -1919,4 +1919,70 @@ Printing all cache contents ...
 (2, 0) tag=256:valid=1:dirty=0:age=0
 (3, 0) tag=256:valid=1:dirty=0:age=0
 (35, 0) tag=263:valid=1:dirty=0:age=0
-(36, 0) tag
+(36, 0) tag=263:valid=1:dirty=0:age=0
+(37, 0) tag=263:valid=1:dirty=0:age=0
+(38, 0) tag=261:valid=1:dirty=0:age=0
+(53, 0) tag=262:valid=1:dirty=0:age=0
+(54, 0) tag=262:valid=1:dirty=0:age=0
+[L2Cache]
+(0, 0) tag=524280:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
+(3, 0) tag=512:valid=1:dirty=0:age=0
+(34, 0) tag=65540:valid=1:dirty=0:age=0
+(35, 0) tag=526:valid=1:dirty=0:age=0
+(36, 0) tag=526:valid=1:dirty=0:age=0
+(37, 0) tag=526:valid=1:dirty=0:age=0
+(38, 0) tag=522:valid=1:dirty=0:age=0
+(53, 0) tag=524:valid=1:dirty=0:age=0
+(54, 0) tag=524:valid=1:dirty=0:age=0
+(62, 0) tag=524279:valid=1:dirty=0:age=0
+(63, 0) tag=524279:valid=1:dirty=0:age=0
+(0, 1) tag=522:valid=1:dirty=0:age=0
+(3, 1) tag=1048560:valid=1:dirty=0:age=0
+======================================================================
+[IF CYCLE: 1336] BRANCH: (Seq:       62)(Addr: 2156992)(PC: 2156920)
+IL1Cache->access(MemRead, addr: 2156920, latency: 2)
+CYCLE: 1336 -> 1337
+======================================================================
+Printing all cache contents ...
+[DL1Cache]
+(0, 0) tag=262140:valid=1:dirty=0:age=0
+(3, 0) tag=524280:valid=1:dirty=0:age=0
+(34, 0) tag=32770:valid=1:dirty=0:age=0
+(126, 0) tag=262139:valid=1:dirty=1:age=0
+(127, 0) tag=262139:valid=1:dirty=1:age=0
+[IL1Cache]
+(0, 0) tag=261:valid=1:dirty=0:age=0
+(2, 0) tag=256:valid=1:dirty=0:age=0
+(3, 0) tag=256:valid=1:dirty=0:age=0
+(35, 0) tag=263:valid=1:dirty=0:age=0
+(36, 0) tag=263:valid=1:dirty=0:age=0
+(37, 0) tag=263:valid=1:dirty=0:age=0
+(38, 0) tag=261:valid=1:dirty=0:age=0
+(53, 0) tag=262:valid=1:dirty=0:age=0
+(54, 0) tag=262:valid=1:dirty=0:age=0
+[L2Cache]
+(0, 0) tag=524280:valid=1:dirty=0:age=0
+(2, 0) tag=512:valid=1:dirty=0:age=0
+(3, 0) tag=512:valid=1:dirty=0:age=0
+(34, 0) tag=65540:valid=1:dirty=0:age=0
+(35, 0) tag=526:valid=1:dirty=0:age=0
+(36, 0) tag=526:valid=1:dirty=0:age=0
+(37, 0) tag=526:valid=1:dirty=0:age=0
+(38, 0) tag=522:valid=1:dirty=0:age=0
+(53, 0) tag=524:valid=1:dirty=0:age=0
+(54, 0) tag=524:valid=1:dirty=0:age=0
+(62, 0) tag=524279:valid=1:dirty=0:age=0
+(63, 0) tag=524279:valid=1:dirty=0:age=0
+(0, 1) tag=522:valid=1:dirty=0:age=0
+(3, 1) tag=1048560:valid=1:dirty=0:age=0
+======================================================================
+[MEM CYCLE: 1338] LOAD: (Seq:       60)(Addr: 2147516612)(PC: 2156912)
+DL1Cache->access(MemRead, addr: 2147516612, latency: 2)
+L2Cache->access(MemRead, addr: 2147516612, latency: 12)
+Memory->access(MemRead, addr: 2147516612, latency: 112)
+CYCLE: 1338 -> 1449
+======================================================================
+Printing all cache contents ...
+[DL1Cache]
+(0, 0) tag=262140:v
